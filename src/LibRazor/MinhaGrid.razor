@@ -1,0 +1,18 @@
+﻿@typeparam T
+@inherits MinhaGridRazor<T>
+
+
+<table border="1">
+    <thead>
+        <tr>@Cabecalho</tr>
+    </thead>
+    <tbody>
+        @foreach (var item in itens)
+        {
+            <tr>@Linha(item)</tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>@Rodape</tr>
+    </tfoot>
+</table>

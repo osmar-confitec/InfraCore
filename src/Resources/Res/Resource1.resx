@@ -1,0 +1,4705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="A" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="AccessData" xml:space="preserve">
+    <value>Dados de acesso</value>
+  </data>
+  <data name="AccessDeniedToDocumentCheckedOut" xml:space="preserve">
+    <value>ACESSO NEGADO !\nDocumento em uso para o usuário {0}.</value>
+  </data>
+  <data name="AccessGroup" xml:space="preserve">
+    <value>Grupo de Acesso</value>
+  </data>
+  <data name="Accomplish" xml:space="preserve">
+    <value>Efetivar</value>
+  </data>
+  <data name="AccomplishDocument" xml:space="preserve">
+    <value>Efetivar Documento</value>
+  </data>
+  <data name="AccomplishDocumentCancelMessage" xml:space="preserve">
+    <value>O Documento já foi efetivado.</value>
+  </data>
+  <data name="AccomplishDocumentCancelMessageAlert" xml:space="preserve">
+    <value>O documento ainda não foi efetivado, por favor fechar o arquivo e reiniciar o processo se necessário.</value>
+  </data>
+  <data name="AccomplishDocumentFailMessage" xml:space="preserve">
+    <value>O Documento ainda não foi efetivado.</value>
+  </data>
+  <data name="AccomplishedDate" xml:space="preserve">
+    <value>Data de Efetivação</value>
+  </data>
+  <data name="AccomplishPopupParticipate" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Ação</value>
+  </data>
+  <data name="ActionAccomplish" xml:space="preserve">
+    <value>DOCUMENTO EFETIVADO</value>
+  </data>
+  <data name="ActionActivate" xml:space="preserve">
+    <value>ATIVAR DOCUMENTO</value>
+  </data>
+  <data name="ActionCancelFlow" xml:space="preserve">
+    <value>CANCELAMENTO DE FLUXO</value>
+  </data>
+  <data name="ActionCheckin" xml:space="preserve">
+    <value>EDIÇÃO FINALIZADA</value>
+  </data>
+  <data name="ActionCopy" xml:space="preserve">
+    <value>CÓPIA</value>
+  </data>
+  <data name="ActionDelete" xml:space="preserve">
+    <value>EXCLUSÃO</value>
+  </data>
+  <data name="ActionDeleteDiscard" xml:space="preserve">
+    <value>EXCLUSÃO DE DOCUMENTO DESCARTADO</value>
+  </data>
+  <data name="ActionDisapproveAndFinalize" xml:space="preserve">
+    <value>REPROVAÇÃO E FINALIZAÇÃO DE FLUXO</value>
+  </data>
+  <data name="ActionDiscard" xml:space="preserve">
+    <value>DESCARTE DE DOCUMENTO</value>
+  </data>
+  <data name="ActionDownload" xml:space="preserve">
+    <value>DOWNLOAD DE ARQUIVO</value>
+  </data>
+  <data name="ActionInsert" xml:space="preserve">
+    <value>INCLUSÃO</value>
+  </data>
+  <data name="ActionLoan" xml:space="preserve">
+    <value>EMPRÉSTIMO DE DOCUMENTO</value>
+  </data>
+  <data name="ActionReserve" xml:space="preserve">
+    <value>RESERVA DE DOCUMENTO</value>
+  </data>
+  <data name="ActionReserveCancel" xml:space="preserve">
+    <value>CANCELAMENTO DE RESERVA</value>
+  </data>
+  <data name="ActionRestartFlow" xml:space="preserve">
+    <value>REINÍCIO DE FLUXO</value>
+  </data>
+  <data name="ActionRestoreDiscard" xml:space="preserve">
+    <value>RESTAURAÇÃO DE DESCARTE</value>
+  </data>
+  <data name="ActionReturn" xml:space="preserve">
+    <value>DEVOLUÇÃO DE EMPRÉSTIMO</value>
+  </data>
+  <data name="ActionStartReview" xml:space="preserve">
+    <value>INÍCIO DE REVISÃO DE DOCUMENTO</value>
+  </data>
+  <data name="ActionStartWorkFlow" xml:space="preserve">
+    <value>INÍCIO DE WORKFLOW</value>
+  </data>
+  <data name="ActionSuspendFlow" xml:space="preserve">
+    <value>SUSPENSÃO DE FLUXO</value>
+  </data>
+  <data name="ActionTransferLibrary" xml:space="preserve">
+    <value>TRANSFERÊNCIA DE BIBLIOTECA</value>
+  </data>
+  <data name="ActionTurnHistory" xml:space="preserve">
+    <value>TORNAR DOCUMENTO HISTÓRICO</value>
+  </data>
+  <data name="ActionUpdate" xml:space="preserve">
+    <value>EDIÇÃO</value>
+  </data>
+  <data name="Action_Active" xml:space="preserve">
+    <value>ATIVO</value>
+  </data>
+  <data name="Action_Ant" xml:space="preserve">
+    <value>ANT</value>
+  </data>
+  <data name="Action_Avaliable" xml:space="preserve">
+    <value>DISPONÍVEL</value>
+  </data>
+  <data name="Action_Canceled" xml:space="preserve">
+    <value>CANCELADO</value>
+  </data>
+  <data name="Action_Completed" xml:space="preserve">
+    <value>CONCLUÍDO</value>
+  </data>
+  <data name="Action_DelayedDocument" xml:space="preserve">
+    <value>DOCUMENTO ATRASADO</value>
+  </data>
+  <data name="Action_DelayedTask" xml:space="preserve">
+    <value>TAREFA ATRASADA</value>
+  </data>
+  <data name="Action_DelayedTaskCompleted" xml:space="preserve">
+    <value>TAREFA ATRASADA CONCLUÍDA</value>
+  </data>
+  <data name="Action_Disapproved" xml:space="preserve">
+    <value>REPROVADO</value>
+  </data>
+  <data name="Action_Editing" xml:space="preserve">
+    <value>EM EDIÇÃO</value>
+  </data>
+  <data name="Action_History" xml:space="preserve">
+    <value>HISTÓRICO</value>
+  </data>
+  <data name="Action_InDiscard" xml:space="preserve">
+    <value>EM DESCARTE</value>
+  </data>
+  <data name="Action_InReview" xml:space="preserve">
+    <value>EM REVISÃO</value>
+  </data>
+  <data name="Action_InWorkFlow" xml:space="preserve">
+    <value>EM WORKFLOW</value>
+  </data>
+  <data name="Action_Loaned" xml:space="preserve">
+    <value>EMPRESTADO</value>
+  </data>
+  <data name="Action_Pending" xml:space="preserve">
+    <value>PENDENTE</value>
+  </data>
+  <data name="Action_ReprogrammingTask" xml:space="preserve">
+    <value>TAREFA REPROGRAMADA</value>
+  </data>
+  <data name="Action_Reserved" xml:space="preserve">
+    <value>RESERVADO</value>
+  </data>
+  <data name="Action_Rev" xml:space="preserve">
+    <value>REV</value>
+  </data>
+  <data name="Action_Suspended" xml:space="preserve">
+    <value>SUSPENSO</value>
+  </data>
+  <data name="Action_Ult" xml:space="preserve">
+    <value>ULT</value>
+  </data>
+  <data name="Action_WithoutRelease" xml:space="preserve">
+    <value>SEM VERSÃO</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="ActiveDocuments" xml:space="preserve">
+    <value>Documentos Ativos</value>
+  </data>
+  <data name="ActiveNormativeDocument" xml:space="preserve">
+    <value>Documento Normativo Ativo</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="AddAll" xml:space="preserve">
+    <value>Adicionar Todos</value>
+  </data>
+  <data name="AdvancedFilter" xml:space="preserve">
+    <value>Pesquisa Avançada</value>
+  </data>
+  <data name="Alias" xml:space="preserve">
+    <value>Sigla</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="AllDocumentsAvaliables" xml:space="preserve">
+    <value>Todos Documentos Disponíveis</value>
+  </data>
+  <data name="AlterWithControl" xml:space="preserve">
+    <value>Alterar com Controle (somente para .docx)</value>
+  </data>
+  <data name="AlterWithoutControl" xml:space="preserve">
+    <value>Alterar sem Controle</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>e</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>Recorrente</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Aprovar</value>
+  </data>
+  <data name="ApproveAll" xml:space="preserve">
+    <value>Aprovar Todos</value>
+  </data>
+  <data name="Approver" xml:space="preserve">
+    <value>Aprovador</value>
+  </data>
+  <data name="ApproverType" xml:space="preserve">
+    <value>Tipo de Aprovador</value>
+  </data>
+  <data name="AppVersion" xml:space="preserve">
+    <value>Versão 13.5.2</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="AssociateUsers" xml:space="preserve">
+    <value>Usuários Associados</value>
+  </data>
+  <data name="Attached" xml:space="preserve">
+    <value>ANEXADO</value>
+  </data>
+  <data name="Automatic" xml:space="preserve">
+    <value>Automático</value>
+  </data>
+  <data name="AvailableForBooking" xml:space="preserve">
+    <value>Disponível para Reserva</value>
+  </data>
+  <data name="BeforeCloseWindowMessage" xml:space="preserve">
+    <value>____________________________________________________________\n\nATENÇÃO – CANCELE ESTA OPERAÇÃO!\n\nFECHE PELO BOTÃO FECHAR EM VERMELHO!\n\n____________________________________________________________</value>
+  </data>
+  <data name="Begin" xml:space="preserve">
+    <value>Início</value>
+  </data>
+  <data name="BeginDate" xml:space="preserve">
+    <value>Data início</value>
+  </data>
+  <data name="BeginHour" xml:space="preserve">
+    <value>Hora início</value>
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>Ramal</value>
+  </data>
+  <data name="btActivate" xml:space="preserve">
+    <value>Ativar</value>
+  </data>
+  <data name="btCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btCancelFlow" xml:space="preserve">
+    <value>Cancelar Fluxo</value>
+  </data>
+  <data name="btChange" xml:space="preserve">
+    <value>Alterar</value>
+  </data>
+  <data name="btChangeTask" xml:space="preserve">
+    <value>Transferir</value>
+  </data>
+  <data name="btCheckin" xml:space="preserve">
+    <value>Checkin</value>
+  </data>
+  <data name="btClear" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="btClose" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="btComplete" xml:space="preserve">
+    <value>Concluir</value>
+  </data>
+  <data name="btCopyModel" xml:space="preserve">
+    <value>Copiar Modelo</value>
+  </data>
+  <data name="btCreateModel" xml:space="preserve">
+    <value>Criar Modelo</value>
+  </data>
+  <data name="btDelegateUsers" xml:space="preserve">
+    <value>Exibir Delegados</value>
+  </data>
+  <data name="btDelete" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="btDigitallySignComplete" xml:space="preserve">
+    <value>Assinar e Concluir</value>
+  </data>
+  <data name="btDownloadSelection" xml:space="preserve">
+    <value>Download Seleção</value>
+  </data>
+  <data name="btEditDocument" xml:space="preserve">
+    <value>Editar Documento</value>
+  </data>
+  <data name="btEndTask" xml:space="preserve">
+    <value>Finalizar Tarefa</value>
+  </data>
+  <data name="btGenerate" xml:space="preserve">
+    <value>Gerar</value>
+  </data>
+  <data name="btHandleConvertedDocuments" xml:space="preserve">
+    <value>Documentos Convertidos</value>
+  </data>
+  <data name="btInsert" xml:space="preserve">
+    <value>Inserir</value>
+  </data>
+  <data name="btInsertFile" xml:space="preserve">
+    <value>Inserir Arquivo</value>
+  </data>
+  <data name="btLibraryTransferSelection" xml:space="preserve">
+    <value>Transferir Biblioteca Seleção</value>
+  </data>
+  <data name="btLoadUsersAvailables" xml:space="preserve">
+    <value>Usuários Disponíveis</value>
+  </data>
+  <data name="btLoan" xml:space="preserve">
+    <value>Emprestar</value>
+  </data>
+  <data name="btMaintenanceTask" xml:space="preserve">
+    <value>Manutenção de Tarefas</value>
+  </data>
+  <data name="btModifyModel" xml:space="preserve">
+    <value>Alterar Modelo</value>
+  </data>
+  <data name="btMove" xml:space="preserve">
+    <value>Mover</value>
+  </data>
+  <data name="btMultiDelete" xml:space="preserve">
+    <value>Excluir Registros Selecionados</value>
+  </data>
+  <data name="btNewFlow" xml:space="preserve">
+    <value>Novo Fluxo</value>
+  </data>
+  <data name="btNewStage" xml:space="preserve">
+    <value>Nova Etapa</value>
+  </data>
+  <data name="btNewTask" xml:space="preserve">
+    <value>Nova Tarefa</value>
+  </data>
+  <data name="btOpenFile" xml:space="preserve">
+    <value>Abrir Arquivo</value>
+  </data>
+  <data name="btPrintCopy" xml:space="preserve">
+    <value>Imprimir Cópia</value>
+  </data>
+  <data name="btReadConfirm" xml:space="preserve">
+    <value>Confirmar Leitura</value>
+  </data>
+  <data name="btReprocessData" xml:space="preserve">
+    <value>Reprocessar Dados</value>
+  </data>
+  <data name="btReserve" xml:space="preserve">
+    <value>Reservar</value>
+  </data>
+  <data name="btReStartFlow" xml:space="preserve">
+    <value>Reiniciar Fluxo</value>
+  </data>
+  <data name="btSave" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="btSend" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="btStartReview" xml:space="preserve">
+    <value>Revisar</value>
+  </data>
+  <data name="btSuspendFlow" xml:space="preserve">
+    <value>Suspender Fluxo</value>
+  </data>
+  <data name="btTransfer" xml:space="preserve">
+    <value>Transferir</value>
+  </data>
+  <data name="btTransferLibrary" xml:space="preserve">
+    <value>Transferir Biblioteca</value>
+  </data>
+  <data name="btTurnHistory" xml:space="preserve">
+    <value>Tornar Histórico</value>
+  </data>
+  <data name="btUpdateFile" xml:space="preserve">
+    <value>Alterar Arquivo</value>
+  </data>
+  <data name="btValidateData" xml:space="preserve">
+    <value>Validar Dados</value>
+  </data>
+  <data name="Bulk" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="ByDocument" xml:space="preserve">
+    <value>Por Documento</value>
+  </data>
+  <data name="ByLibrary" xml:space="preserve">
+    <value>Por Biblioteca</value>
+  </data>
+  <data name="ByPass" xml:space="preserve">
+    <value>ByPass</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="CannotAccessDataBase" xml:space="preserve">
+    <value>Não foi possível conectar na base {0}!</value>
+  </data>
+  <data name="cbkChangeVariables" xml:space="preserve">
+    <value>Converter Variáveis</value>
+  </data>
+  <data name="CC" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="Cdu" xml:space="preserve">
+    <value>Cdu</value>
+  </data>
+  <data name="Cell" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="CertificateBeaten" xml:space="preserve">
+    <value>Certificado Vencido!</value>
+  </data>
+  <data name="CertificateOrPasswordInvalid" xml:space="preserve">
+    <value>Certificado do Usuário ou Senha do Certificado, Inválidos!</value>
+  </data>
+  <data name="ChangeDigitalFile" xml:space="preserve">
+    <value>Alterar Arquivo Digital</value>
+  </data>
+  <data name="ChangeHeaderFooter" xml:space="preserve">
+    <value>Alterar Cabeçalho e Rodapé</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Alterar senha</value>
+  </data>
+  <data name="ChartsLegendCompleted" xml:space="preserve">
+    <value>Concluídas no Prazo</value>
+  </data>
+  <data name="ChartsLegendDelayedTaksCompleted" xml:space="preserve">
+    <value>Concluídas com Atraso</value>
+  </data>
+  <data name="ChartsLegendDelayedTasks" xml:space="preserve">
+    <value>Em Atraso</value>
+  </data>
+  <data name="ChartsLegendDelayedWF" xml:space="preserve">
+    <value>Em Atraso</value>
+  </data>
+  <data name="ChartsLegendPendingTasks" xml:space="preserve">
+    <value>Pendentes</value>
+  </data>
+  <data name="ChartsLegendPendingWF" xml:space="preserve">
+    <value>Pendentes</value>
+  </data>
+  <data name="CheckedOutTo" xml:space="preserve">
+    <value>- Checked Out em {0} para {1}</value>
+  </data>
+  <data name="ckbAnnexFilter" xml:space="preserve">
+    <value>Pesquisar Somente Anexos</value>
+  </data>
+  <data name="ckbAutoAssociateNewUsers" xml:space="preserve">
+    <value>Associar Novos Usuários Automaticamente</value>
+  </data>
+  <data name="ckbAutoReview" xml:space="preserve">
+    <value>Revisão Automática</value>
+  </data>
+  <data name="ckbCopyStageTask" xml:space="preserve">
+    <value>Deseja copiar Etapas e Tarefas existentes?</value>
+  </data>
+  <data name="ckbCopyTask" xml:space="preserve">
+    <value>Deseja copiar Tarefas existentes?</value>
+  </data>
+  <data name="ckbFriday" xml:space="preserve">
+    <value>Sexta-feira</value>
+  </data>
+  <data name="ckbInactiveAccessExpired" xml:space="preserve">
+    <value>Inativa acesso quando validade expirada</value>
+  </data>
+  <data name="ckbInheritUsersFromAD" xml:space="preserve">
+    <value>Utilizar este grupo para usuários importados do Active Directory</value>
+  </data>
+  <data name="ckbKnowledgePendingGenerateQuestion" xml:space="preserve">
+    <value>Gerar Pendência de Conhecimento?</value>
+  </data>
+  <data name="ckbMonday" xml:space="preserve">
+    <value>Segunda-feira</value>
+  </data>
+  <data name="ckbRequirementsFunction" xml:space="preserve">
+    <value>Requisitos da Função</value>
+  </data>
+  <data name="ckbRequirementsKnowledge" xml:space="preserve">
+    <value>Requisitos de Conhecimento</value>
+  </data>
+  <data name="ckbSaturday" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
+  <data name="ckbSunday" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="ckbThursday" xml:space="preserve">
+    <value>Quinta-feira</value>
+  </data>
+  <data name="ckbTuesday" xml:space="preserve">
+    <value>Terça-feira</value>
+  </data>
+  <data name="ckbWednesday" xml:space="preserve">
+    <value>Quarta-feira</value>
+  </data>
+  <data name="Classification" xml:space="preserve">
+    <value>Classificação</value>
+  </data>
+  <data name="ClientName" xml:space="preserve">
+    <value>Stefanini S. A.</value>
+  </data>
+  <data name="CloseDocumentAndSaveChanges" xml:space="preserve">
+    <value>Deseja Salvar as Alterações?</value>
+  </data>
+  <data name="CloseWindow" xml:space="preserve">
+    <value>Fechar janela?</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="Commentary" xml:space="preserve">
+    <value>Comentário</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Conteúdo</value>
+  </data>
+  <data name="ControlGroup" xml:space="preserve">
+    <value>Grupo de Controle</value>
+  </data>
+  <data name="ControlledCopy" xml:space="preserve">
+    <value>Cópia Controlada</value>
+  </data>
+  <data name="ControllingConclusion" xml:space="preserve">
+    <value>Controlar Conclusão</value>
+  </data>
+  <data name="ControlType" xml:space="preserve">
+    <value>Tipo de Controle</value>
+  </data>
+  <data name="Convert" xml:space="preserve">
+    <value>Converter</value>
+  </data>
+  <data name="ConvertAllSheets" xml:space="preserve">
+    <value>Criar / Converter Variáveis em Todas Planilhas</value>
+  </data>
+  <data name="ConvertedDocument" xml:space="preserve">
+    <value>Documento Convertido</value>
+  </data>
+  <data name="ConvertJustFirstSheet" xml:space="preserve">
+    <value>Criar / Converter Variáveis Somente na Primeira Planilha</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="CopyAttachedFileQuestion" xml:space="preserve">
+    <value>Copiar Arquivo Anexo?</value>
+  </data>
+  <data name="CopyControlled" xml:space="preserve">
+    <value>Cópia Impressa Controlada</value>
+  </data>
+  <data name="CopyNotControlled" xml:space="preserve">
+    <value>Cópia Impressa Não Controlada - Em {0}</value>
+  </data>
+  <data name="CopyNumber" xml:space="preserve">
+    <value>Cópias</value>
+  </data>
+  <data name="CopyType" xml:space="preserve">
+    <value>Tipo de Cópia</value>
+  </data>
+  <data name="Crescent" xml:space="preserve">
+    <value>Crescente</value>
+  </data>
+  <data name="Criterium" xml:space="preserve">
+    <value>Critério de Indexação</value>
+  </data>
+  <data name="Cycle" xml:space="preserve">
+    <value>Ciclo</value>
+  </data>
+  <data name="Daily" xml:space="preserve">
+    <value>Diário</value>
+  </data>
+  <data name="DataFound" xml:space="preserve">
+    <value>Registros encontrados</value>
+  </data>
+  <data name="DataReprocessed" xml:space="preserve">
+    <value>Dados Reprocessados</value>
+  </data>
+  <data name="DataValidation" xml:space="preserve">
+    <value>Validação de Dados</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="DateSetForReturn" xml:space="preserve">
+    <value>Data Prevista de Devolução</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>Dia</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Dias</value>
+  </data>
+  <data name="DaysUntilToReview" xml:space="preserve">
+    <value>Antecedência de Vencimento (Dias)</value>
+  </data>
+  <data name="DcoumentsAssociate" xml:space="preserve">
+    <value>Documentos Associados</value>
+  </data>
+  <data name="ddlApproverUser" xml:space="preserve">
+    <value>APROVADOR</value>
+  </data>
+  <data name="ddlDocument" xml:space="preserve">
+    <value>DOCUMENTO</value>
+  </data>
+  <data name="ddlFinishedFlow" xml:space="preserve">
+    <value>DATA DE CONCLUSÃO DO WF</value>
+  </data>
+  <data name="ddlForecastFlow" xml:space="preserve">
+    <value>PREVISÃO DE TÉRMINO DO WF</value>
+  </data>
+  <data name="ddlGroupControl" xml:space="preserve">
+    <value>GRUPO DE CONTROLE</value>
+  </data>
+  <data name="ddlHigh" xml:space="preserve">
+    <value>ALTA</value>
+  </data>
+  <data name="ddlInsertDate" xml:space="preserve">
+    <value>DATA DE CADASTRO</value>
+  </data>
+  <data name="ddlInsertUser" xml:space="preserve">
+    <value>USUÁRIO DE INCLUSÃO</value>
+  </data>
+  <data name="ddlLifeValidate" xml:space="preserve">
+    <value>DATA DE VALIDADE</value>
+  </data>
+  <data name="ddlLow" xml:space="preserve">
+    <value>BAIXA</value>
+  </data>
+  <data name="ddlNormal" xml:space="preserve">
+    <value>NORMAL</value>
+  </data>
+  <data name="ddlOccupation" xml:space="preserve">
+    <value>CARGO</value>
+  </data>
+  <data name="ddlProcess" xml:space="preserve">
+    <value>PROCESSO</value>
+  </data>
+  <data name="ddlReprogramTask" xml:space="preserve">
+    <value>TAREFAS REPROGRAMADAS</value>
+  </data>
+  <data name="ddlResponsibleUser" xml:space="preserve">
+    <value>USUÁRIO RESPONSÁVEL</value>
+  </data>
+  <data name="ddlStartedFlow" xml:space="preserve">
+    <value>DATA DE INÍCIO DO WF</value>
+  </data>
+  <data name="ddlUserDefine" xml:space="preserve">
+    <value>USUÁRIO DEFINE</value>
+  </data>
+  <data name="ddlUsers" xml:space="preserve">
+    <value>USUÁRIO</value>
+  </data>
+  <data name="Decreasing" xml:space="preserve">
+    <value>Decrescente</value>
+  </data>
+  <data name="DefaultObservation" xml:space="preserve">
+    <value>Observação Padrão</value>
+  </data>
+  <data name="DefaultSubject" xml:space="preserve">
+    <value>NetDocs - Solicitação de Informação</value>
+  </data>
+  <data name="DefaultTask" xml:space="preserve">
+    <value>Tarefas Padrão</value>
+  </data>
+  <data name="DelegateLess" xml:space="preserve">
+    <value>Sem delegação configurada para o usuário: {0}</value>
+  </data>
+  <data name="Delegation" xml:space="preserve">
+    <value>Delegação</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="DeleteAttachedFileQuestion" xml:space="preserve">
+    <value>Excluir o Arquivo Anexado?</value>
+  </data>
+  <data name="DeleteDiscard" xml:space="preserve">
+    <value>Descartar</value>
+  </data>
+  <data name="DeleteGroupControlUserValidate" xml:space="preserve">
+    <value>Este Grupo de Controle não pode ficar sem usuários associados, pois existe relacionamento com Documentos e/ou Fluxos!</value>
+  </data>
+  <data name="DeleteUserOccupationValidate" xml:space="preserve">
+    <value>Esta Matriz Organizacional não pode ficar sem usuários associados, pois existe relacionamento com Documentos e/ou Fluxos!</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Departamento</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detalhes</value>
+  </data>
+  <data name="DigitalFile" xml:space="preserve">
+    <value>Arquivo Digital</value>
+  </data>
+  <data name="DigitalFileData" xml:space="preserve">
+    <value>Dados do Arquivo Digital</value>
+  </data>
+  <data name="DigitalSignature" xml:space="preserve">
+    <value>Assinatura Digital</value>
+  </data>
+  <data name="Disapprove" xml:space="preserve">
+    <value>Reprovar</value>
+  </data>
+  <data name="DisapproveAndFinalize" xml:space="preserve">
+    <value>Reprovar e Finalizar</value>
+  </data>
+  <data name="DisapproveParametersLevelValidateMessage" xml:space="preserve">
+    <value>A tarefa selecionada não é válida!&lt;br&gt;Não é possível configurar reprovação para tarefas posteriores.</value>
+  </data>
+  <data name="DisapproveParametersValidateErrorMessage" xml:space="preserve">
+    <value>Esta tarefa não pode ser salva porque não foi configurado nenhum retorno em caso de reprovação!</value>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>Exibir</value>
+  </data>
+  <data name="DisplayLog" xml:space="preserve">
+    <value>Exibir Log</value>
+  </data>
+  <data name="DocProcessPeriod" xml:space="preserve">
+    <value>Documento / Processo por Período</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="DocumentAccomplished" xml:space="preserve">
+    <value>Este documento ja foi efetivado.</value>
+  </data>
+  <data name="DocumentAssociate" xml:space="preserve">
+    <value>Documentos Associados</value>
+  </data>
+  <data name="DocumentAvailable" xml:space="preserve">
+    <value>Documentos Disponíveis</value>
+  </data>
+  <data name="DocumentCheckedOut" xml:space="preserve">
+    <value>Para prosseguir com o fluxo é necessário dar checkin no documento.</value>
+  </data>
+  <data name="DocumentData" xml:space="preserve">
+    <value>Dados do Documento</value>
+  </data>
+  <data name="DocumentDateUntilToReview" xml:space="preserve">
+    <value>Validade vence em {0} dia(s).</value>
+  </data>
+  <data name="DocumentEnableQuestion" xml:space="preserve">
+    <value>Ativar Documento?</value>
+  </data>
+  <data name="DocumentEngineering" xml:space="preserve">
+    <value>Documento de Engenharia </value>
+  </data>
+  <data name="DocumentExpireToday" xml:space="preserve">
+    <value>Validade Vence Hoje !</value>
+  </data>
+  <data name="DocumentGeneral" xml:space="preserve">
+    <value>Documento Geral</value>
+  </data>
+  <data name="DocumentHelpInfo" xml:space="preserve">
+    <value>Esta tarefa possui documento de ajuda !</value>
+  </data>
+  <data name="DocumentHistory" xml:space="preserve">
+    <value>Histórico de Alterações</value>
+  </data>
+  <data name="DocumentInReview" xml:space="preserve">
+    <value>Em Revisão !</value>
+  </data>
+  <data name="DocumentNotMerged" xml:space="preserve">
+    <value>Para prosseguir com o fluxo é necessário efetuar o merge no documento.</value>
+  </data>
+  <data name="DocumentsAssociate" xml:space="preserve">
+    <value>Documentos Associados</value>
+  </data>
+  <data name="DocumentsAttachments" xml:space="preserve">
+    <value>Documentos Anexos</value>
+  </data>
+  <data name="DocumentsAvailable" xml:space="preserve">
+    <value>Documentos Disponíveis</value>
+  </data>
+  <data name="DocumentsPending" xml:space="preserve">
+    <value>Documentos Pendentes</value>
+  </data>
+  <data name="DocumentSuccessfullySaved" xml:space="preserve">
+    <value>Documento salvo com sucesso!</value>
+  </data>
+  <data name="DocumentType" xml:space="preserve">
+    <value>Tipo de Documento</value>
+  </data>
+  <data name="DocumentWithExpired" xml:space="preserve">
+    <value>Validade Vencida !</value>
+  </data>
+  <data name="Ec" xml:space="preserve">
+    <value>Ec</value>
+  </data>
+  <data name="EcNumber" xml:space="preserve">
+    <value>Nº Ec</value>
+  </data>
+  <data name="EditHeaderFooter" xml:space="preserve">
+    <value>Editar Cabeçalho / Rodapé</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="EmissionDate" xml:space="preserve">
+    <value>Data da Emissão</value>
+  </data>
+  <data name="EmptyLog" xml:space="preserve">
+    <value>Limpar Log</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Fim</value>
+  </data>
+  <data name="EndEdition" xml:space="preserve">
+    <value>Finalizar Edição</value>
+  </data>
+  <data name="EndTask" xml:space="preserve">
+    <value>Finalizar Tarefa</value>
+  </data>
+  <data name="Engineering" xml:space="preserve">
+    <value>Engenharia</value>
+  </data>
+  <data name="EngineeringData" xml:space="preserve">
+    <value>Dados de Engenharia</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="ExamineAll" xml:space="preserve">
+    <value>Analisar Todos</value>
+  </data>
+  <data name="ExcelCellExceptionMessage" xml:space="preserve">
+    <value>Não foi possível completar esta operação!
+Retire o foco da célula e tente novamente.</value>
+  </data>
+  <data name="ExcelDocument" xml:space="preserve">
+    <value>Documento do Excel</value>
+  </data>
+  <data name="ExecutionDate" xml:space="preserve">
+    <value>Data Execução</value>
+  </data>
+  <data name="ExecutionHistory" xml:space="preserve">
+    <value>Histórico de Movimentação</value>
+  </data>
+  <data name="ExistsRegister" xml:space="preserve">
+    <value>Este registro já existe cadastrado!</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Data de Expiração</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="ExportExcelErrorMessage" xml:space="preserve">
+    <value>Planilha possui {0} linhas, não é possível exportar para o EXCEL!</value>
+  </data>
+  <data name="ExtenderActivateRegisterConfirm" xml:space="preserve">
+    <value>Tem certeza que deseja ativar o registro selecionado?</value>
+  </data>
+  <data name="ExtenderChangeModelConfirm" xml:space="preserve">
+    <value>Esta ação irá gerar uma nova versão do Tipo, confirma operação?</value>
+  </data>
+  <data name="ExtenderCopyControlledRegisterConfirm" xml:space="preserve">
+    <value>Gerar cópias controladas agora</value>
+  </data>
+  <data name="ExtenderDeleteConfirm" xml:space="preserve">
+    <value>Deseja realmente apagar o cargo {0} e seus dependentes?</value>
+  </data>
+  <data name="ExtenderDeleteRegisterConfirm" xml:space="preserve">
+    <value>Tem certeza que deseja excluir o registro selecionado?</value>
+  </data>
+  <data name="ExtenderMultiDeleteConfirm" xml:space="preserve">
+    <value>Tem certeza que deseja excluir os registros selecionados?</value>
+  </data>
+  <data name="ExtenderMultiDownloadSelection" xml:space="preserve">
+    <value>Deseja fazer download dos documentos selecionados?</value>
+  </data>
+  <data name="ExtenderPrintCopyConfirm" xml:space="preserve">
+    <value>Tem certeza que deseja imprimir?</value>
+  </data>
+  <data name="ExtenderSelectRegisterConfirm" xml:space="preserve">
+    <value>Tem certeza que deseja selecionar este item?</value>
+  </data>
+  <data name="ExtenderTransferLibraryConfirm" xml:space="preserve">
+    <value>Esta ação irá transferir todas as versões deste documento para a biblioteca, confirma?</value>
+  </data>
+  <data name="ExtenderTurnHistoryRegisterConfirm" xml:space="preserve">
+    <value>Tem certeza que deseja tornar histórico o registro selecionado?</value>
+  </data>
+  <data name="Extension" xml:space="preserve">
+    <value>Extensão</value>
+  </data>
+  <data name="FailMessage" xml:space="preserve">
+    <value>Falha na operação!</value>
+  </data>
+  <data name="Fall" xml:space="preserve">
+    <value>Tombo</value>
+  </data>
+  <data name="FieldsTemplate" xml:space="preserve">
+    <value>Campos do Template</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Arquivo</value>
+  </data>
+  <data name="FileDownload" xml:space="preserve">
+    <value>Baixar Arquivo</value>
+  </data>
+  <data name="FileInfo" xml:space="preserve">
+    <value>Nome do Arquivo: &lt;b&gt;{0} -  {1} &lt;/b&gt;&lt;br&gt;</value>
+  </data>
+  <data name="FileLocation" xml:space="preserve">
+    <value>Local de Arquivo</value>
+  </data>
+  <data name="FileMethodCopy" xml:space="preserve">
+    <value>Copiar Arquivo Anexo?</value>
+  </data>
+  <data name="FileMethodDelete" xml:space="preserve">
+    <value>Excluir Arquivo Anexado?</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Nome do Arquivo</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>Arquivo não encontrado!</value>
+  </data>
+  <data name="FileTemplate" xml:space="preserve">
+    <value>Arquivo Template</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="FilterData" xml:space="preserve">
+    <value>Dados do Filtro</value>
+  </data>
+  <data name="Flow" xml:space="preserve">
+    <value>Fluxo</value>
+  </data>
+  <data name="ForecastDateEnd" xml:space="preserve">
+    <value>Data Prev. de Termino</value>
+  </data>
+  <data name="ForgotPasswordMessage" xml:space="preserve">
+    <value>USUÁRIO E E-MAIL INVÁLIDOS!</value>
+  </data>
+  <data name="Format" xml:space="preserve">
+    <value>Formato</value>
+  </data>
+  <data name="Forward" xml:space="preserve">
+    <value>Encaminhar</value>
+  </data>
+  <data name="ForwardConfigurations" xml:space="preserve">
+    <value>Configurações de Encaminhamento</value>
+  </data>
+  <data name="ForwardOptions" xml:space="preserve">
+    <value>Opções de Encaminhamento</value>
+  </data>
+  <data name="ForwardType" xml:space="preserve">
+    <value>Tipo de Encaminhamento</value>
+  </data>
+  <data name="ForwardTypeUser" xml:space="preserve">
+    <value>Tipo de Usuário do Encaminhamento</value>
+  </data>
+  <data name="FrameworkRules" xml:space="preserve">
+    <value>Direitos de Estrutura</value>
+  </data>
+  <data name="FreeMenu" xml:space="preserve">
+    <value>Liberar Menu</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="Function" xml:space="preserve">
+    <value>Função</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="GeneralData" xml:space="preserve">
+    <value>Dados Gerais</value>
+  </data>
+  <data name="GeneralSearch" xml:space="preserve">
+    <value>Pesquisa geral</value>
+  </data>
+  <data name="GenerateCopies" xml:space="preserve">
+    <value>Gerar Cópias</value>
+  </data>
+  <data name="GenerateCopiesByLibraryValidateMessage" xml:space="preserve">
+    <value>Os documentos associados na cor vermelha possuem cópias pendentes de impressão para este destinatário e impressor de revisão!</value>
+  </data>
+  <data name="GenerateCopiesValidateMessage" xml:space="preserve">
+    <value>Há {0} cópias pendentes de impressão para este documento na caixa de entrada deste destinatário e impressor de revisão!</value>
+  </data>
+  <data name="GenerateCopyControlled" xml:space="preserve">
+    <value>Gerar Cópias Controladas</value>
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="HandleConvertedDocuments" xml:space="preserve">
+    <value>Manipular Documentos Convertidos</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Ocultar</value>
+  </data>
+  <data name="HideAdvancedFilter" xml:space="preserve">
+    <value>Ocultar Pesquisa Avançada</value>
+  </data>
+  <data name="IconHelpGeneralSearchMessage" xml:space="preserve">
+    <value>Pesquisa por N° Net, Título, Palavras Chave, Observação e Local de Armazenamento</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Imagem</value>
+  </data>
+  <data name="ImportModelQuestion" xml:space="preserve">
+    <value>Importar Modelo?</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>Inativo</value>
+  </data>
+  <data name="InactiveApproverGroupControlMessage" xml:space="preserve">
+    <value>&lt;br&gt;Selecione outro grupo de controle aprovador!&lt;br&gt;O &lt;b&gt;{0}&lt;/b&gt; não possui nenhum usuário está ativo!</value>
+  </data>
+  <data name="InactiveApproverOccupationMessage" xml:space="preserve">
+    <value>&lt;br&gt;Selecione outro cargo aprovador!&lt;br&gt;O &lt;b&gt;{0}&lt;/b&gt; não possui nenhum usuário ativo!</value>
+  </data>
+  <data name="InactiveApproverUserMessage" xml:space="preserve">
+    <value>&lt;br&gt;Selecione outro usuário aprovador !&lt;br&gt;O &lt;b&gt;{0}&lt;/b&gt; está inativo!</value>
+  </data>
+  <data name="InactiveLoginMessage" xml:space="preserve">
+    <value>USUÁRIO INATIVO !</value>
+  </data>
+  <data name="InactiveResponsibleGroupControlMessage" xml:space="preserve">
+    <value>&lt;br&gt;Selecione outro grupo de controle responsável!&lt;br&gt;O &lt;b&gt;{0}&lt;/b&gt; não possui nenhum usuário ativo!</value>
+  </data>
+  <data name="InactiveResponsibleOccupationMessage" xml:space="preserve">
+    <value>&lt;br&gt;Selecione outro cargo responsável !&lt;br&gt;O &lt;b&gt;{0}&lt;/b&gt; não possui nenhum usuário ativo!</value>
+  </data>
+  <data name="InactiveResponsibleUserMessage" xml:space="preserve">
+    <value>&lt;br&gt;Selecione outro usuário responsável !&lt;br&gt;O &lt;b&gt;{0}&lt;/b&gt; está inativo!</value>
+  </data>
+  <data name="InactiveSessionMessage" xml:space="preserve">
+    <value>Sessão inativa, favor efetuar o login novamente!</value>
+  </data>
+  <data name="InBoxControlledCopy" xml:space="preserve">
+    <value>Cópia Controlada</value>
+  </data>
+  <data name="InBoxDataFound" xml:space="preserve">
+    <value>Registros encontrados </value>
+  </data>
+  <data name="InBoxInReview" xml:space="preserve">
+    <value>Em Revisão</value>
+  </data>
+  <data name="InBoxInWorkFlow" xml:space="preserve">
+    <value>Em Workflow</value>
+  </data>
+  <data name="InBoxKnowledgePending" xml:space="preserve">
+    <value>Pendências de Conhecimento</value>
+  </data>
+  <data name="InBoxPendingTask" xml:space="preserve">
+    <value>Tarefas Pendentes</value>
+  </data>
+  <data name="InBoxTrainingPending" xml:space="preserve">
+    <value>Pendências de Auto - Treinamento</value>
+  </data>
+  <data name="InBoxWithoutRelease" xml:space="preserve">
+    <value>Sem Versão</value>
+  </data>
+  <data name="Indicator" xml:space="preserve">
+    <value>Indicador</value>
+  </data>
+  <data name="Indicators" xml:space="preserve">
+    <value>Indicadores</value>
+  </data>
+  <data name="InheritGroupQuestion" xml:space="preserve">
+    <value>Herdar de Grupo</value>
+  </data>
+  <data name="InOrder" xml:space="preserve">
+    <value>Em Ordem</value>
+  </data>
+  <data name="InputModel" xml:space="preserve">
+    <value>Modelo de Entrada</value>
+  </data>
+  <data name="InputModelDefault" xml:space="preserve">
+    <value>Modelo de Entrada Padrão</value>
+  </data>
+  <data name="InputTextToFilterMessage" xml:space="preserve">
+    <value>Digite o texto para pesquisar</value>
+  </data>
+  <data name="InReview" xml:space="preserve">
+    <value>Em Revisão</value>
+  </data>
+  <data name="Insert" xml:space="preserve">
+    <value>Inserir</value>
+  </data>
+  <data name="InsertAndStartWorkflowMessage" xml:space="preserve">
+    <value>Selecione esta opção para iniciar o fluxo automaticamente!\nMantenha esta opção desmarcada caso queira alterar as informações do documento antes do início do fluxo.</value>
+  </data>
+  <data name="InsertAndStartWorkflowToolTip" xml:space="preserve">
+    <value>Selecione esta opção para iniciar o fluxo automaticamente!
+Mantenha esta opção desmarcada caso queira alterar as informações do documento antes do início do fluxo.</value>
+  </data>
+  <data name="InsertDate" xml:space="preserve">
+    <value>Data de Cadastro</value>
+  </data>
+  <data name="InsertDigitalSignature" xml:space="preserve">
+    <value>Inserir Assinatura Digital?</value>
+  </data>
+  <data name="InvalidaValidityImportModel" xml:space="preserve">
+    <value>Para documentos normativos, é necessário importar o modelo!</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>Data inválida!</value>
+  </data>
+  <data name="InvalidDisapproveParametersMessage" xml:space="preserve">
+    <value>A tarefa &lt;b&gt;{0}&lt;/b&gt; Nivel: &lt;b&gt;{1}&lt;/b&gt; Sequencia: &lt;b&gt;{2}&lt;/b&gt; já foi selecionada!&lt;br&gt;Para selecionar outra tarefa é necessário cancelar a  seleção atual.</value>
+  </data>
+  <data name="InvalidDocumentType" xml:space="preserve">
+    <value>Este Documento não pode ter um tipo &lt;b&gt;{0}&lt;/b&gt;!</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>E-mail inválido!</value>
+  </data>
+  <data name="InvalidEmissionDateMessage" xml:space="preserve">
+    <value>A data de emissão não pode ser inferior a data atual!</value>
+  </data>
+  <data name="InvalidExpirationDateMessage" xml:space="preserve">
+    <value>A data de expiração não pode ser inferior a data atual!</value>
+  </data>
+  <data name="InvalidExtensionMessage" xml:space="preserve">
+    <value>Não é permitido inserir arquivos com extensão &lt;b&gt;{0}&lt;/b&gt;!</value>
+  </data>
+  <data name="InvalidExtensionSelectedMessage" xml:space="preserve">
+    <value>Extensão de arquivo não permitida!</value>
+  </data>
+  <data name="InvalidNewPasswordConfirm" xml:space="preserve">
+    <value>Nova senha e confirmação de nova senha devem ser iguais!</value>
+  </data>
+  <data name="InvalidNivelMessage" xml:space="preserve">
+    <value>O Nível não pode ser 0!</value>
+  </data>
+  <data name="InvalidNumber" xml:space="preserve">
+    <value>Número inválido!</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>Senha Inválida!</value>
+  </data>
+  <data name="InvalidPasswordConfirm" xml:space="preserve">
+    <value>Senha e Confirmação devem ser iguais!</value>
+  </data>
+  <data name="InvalidSelectedForwardType" xml:space="preserve">
+    <value>Tipo de Encaminhamento inválido!</value>
+  </data>
+  <data name="InvalidSelectedOccupationMessage" xml:space="preserve">
+    <value>O Cargo selecionado não possui usuário associado!</value>
+  </data>
+  <data name="InvalidValidityDateMessage" xml:space="preserve">
+    <value>A data de validade não pode ser inferior a data atual!</value>
+  </data>
+  <data name="InvalidValidityDaysMessage" xml:space="preserve">
+    <value>A data de validade não pode ser inferior a 0!</value>
+  </data>
+  <data name="IsCheckoutMessage" xml:space="preserve">
+    <value>Esse registro está sendo editado por {0}.</value>
+  </data>
+  <data name="IsCheckoutMessageTask" xml:space="preserve">
+    <value>Essa tarefa está sendo análisada por {0}.</value>
+  </data>
+  <data name="Justify" xml:space="preserve">
+    <value>Justificativa</value>
+  </data>
+  <data name="JustifyErrorMessage" xml:space="preserve">
+    <value>Campo Justificativa é Obrigatório!</value>
+  </data>
+  <data name="JustifyType" xml:space="preserve">
+    <value>Tipo de Justificativa</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Chave</value>
+  </data>
+  <data name="KeyWord" xml:space="preserve">
+    <value>Palavras Chave</value>
+  </data>
+  <data name="Knowledge" xml:space="preserve">
+    <value>Conhecimento</value>
+  </data>
+  <data name="KnowledgePending" xml:space="preserve">
+    <value>Pendências de Conhecimento por Biblioteca</value>
+  </data>
+  <data name="KnowledgePending1" xml:space="preserve">
+    <value>Pend. Conhecimento</value>
+  </data>
+  <data name="KnowledgePendingLog" xml:space="preserve">
+    <value>Log de Pendência de Conhecimento</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Sobrenome</value>
+  </data>
+  <data name="LastUpdate" xml:space="preserve">
+    <value>Última Atualização</value>
+  </data>
+  <data name="lbtnStartReview" xml:space="preserve">
+    <value>Iniciar Revisão</value>
+  </data>
+  <data name="LevelAcceptance" xml:space="preserve">
+    <value>Nível de Aceitação</value>
+  </data>
+  <data name="Level_Administrator" xml:space="preserve">
+    <value>ADMINISTRADOR</value>
+  </data>
+  <data name="Level_Editor" xml:space="preserve">
+    <value>EDITOR</value>
+  </data>
+  <data name="Level_Libraryan" xml:space="preserve">
+    <value>BIBLIOTECÁRIO</value>
+  </data>
+  <data name="Level_One" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Level_Three" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Level_Two" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Level_Zero" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Library" xml:space="preserve">
+    <value>Biblioteca</value>
+  </data>
+  <data name="LibraryAssociate" xml:space="preserve">
+    <value>Bibliotecas Associadas</value>
+  </data>
+  <data name="LibraryAvailable" xml:space="preserve">
+    <value>Bibliotecas Disponíveis</value>
+  </data>
+  <data name="LibraryRules" xml:space="preserve">
+    <value>Direitos de Biblioteca</value>
+  </data>
+  <data name="LibraryTransferMessageValidateNOk" xml:space="preserve">
+    <value>Documento não atende regra de transferência para a biblioteca selecionada!</value>
+  </data>
+  <data name="LibraryTransferMessageValidateOK" xml:space="preserve">
+    <value>Documento atende regra de transferência para a biblioteca selecionada!</value>
+  </data>
+  <data name="LibraryUsersRelationship" xml:space="preserve">
+    <value>Bibliotecas e Usuários Relacionados</value>
+  </data>
+  <data name="LicensedTo" xml:space="preserve">
+    <value>Licenciado para</value>
+  </data>
+  <data name="LimitDate" xml:space="preserve">
+    <value>Data Limite</value>
+  </data>
+  <data name="LimitHour" xml:space="preserve">
+    <value>Hora Limite</value>
+  </data>
+  <data name="LimitValue" xml:space="preserve">
+    <value>Valor Limite</value>
+  </data>
+  <data name="LimitValueIn" xml:space="preserve">
+    <value>Valor Limite em</value>
+  </data>
+  <data name="Linked" xml:space="preserve">
+    <value>VINCULADO</value>
+  </data>
+  <data name="LoadDocument" xml:space="preserve">
+    <value>Carregar Documentos</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Carregando</value>
+  </data>
+  <data name="LoadKnowledgePendingLog" xml:space="preserve">
+    <value>Carregar Log de Pendência de Conhecimento</value>
+  </data>
+  <data name="LoadLibrary" xml:space="preserve">
+    <value>Carregar Bibliotecas</value>
+  </data>
+  <data name="LoadPrintLog" xml:space="preserve">
+    <value>Carregar Log de Impressão!</value>
+  </data>
+  <data name="LoadTemplate" xml:space="preserve">
+    <value>Carregar Template</value>
+  </data>
+  <data name="Loan" xml:space="preserve">
+    <value>Emprestar</value>
+  </data>
+  <data name="LoanData" xml:space="preserve">
+    <value>Dados do Empréstimo</value>
+  </data>
+  <data name="LoanDate" xml:space="preserve">
+    <value>Data do Empréstimo</value>
+  </data>
+  <data name="LoanedBy" xml:space="preserve">
+    <value>Emprestado por</value>
+  </data>
+  <data name="LoanedTo" xml:space="preserve">
+    <value>Emprestado para</value>
+  </data>
+  <data name="LoanOfDocuments" xml:space="preserve">
+    <value>Documentos Emprestados</value>
+  </data>
+  <data name="LoanTo" xml:space="preserve">
+    <value>Emprestar para</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Entrar</value>
+  </data>
+  <data name="LoginMessage" xml:space="preserve">
+    <value>USUÁRIO E SENHA INVÁLIDOS!</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="MailContent" xml:space="preserve">
+    <value>Conteúdo do E-Mail</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="MainEmail" xml:space="preserve">
+    <value>E-mail Principal</value>
+  </data>
+  <data name="MainUser" xml:space="preserve">
+    <value>Usuário Principal</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="MenuControlPanel" xml:space="preserve">
+    <value>Painel de Controle</value>
+  </data>
+  <data name="MenuCopyControlled" xml:space="preserve">
+    <value>Cópias Controladas</value>
+  </data>
+  <data name="MenuGroup" xml:space="preserve">
+    <value>Grupos</value>
+  </data>
+  <data name="MenuHistoryVersion" xml:space="preserve">
+    <value>Histórico de Versões</value>
+  </data>
+  <data name="MenuInbox" xml:space="preserve">
+    <value>Caixa de Entrada</value>
+  </data>
+  <data name="MenuInboxCopyControlled" xml:space="preserve">
+    <value>Cópias Controladas</value>
+  </data>
+  <data name="MenuInboxInReview" xml:space="preserve">
+    <value>Em Revisão</value>
+  </data>
+  <data name="MenuInboxInWorkflow" xml:space="preserve">
+    <value>Em Workflow</value>
+  </data>
+  <data name="MenuInboxKnowledgePending" xml:space="preserve">
+    <value>Pend. Conhecimento</value>
+  </data>
+  <data name="MenuInboxPendingTasks" xml:space="preserve">
+    <value>Tarefas Pendentes</value>
+  </data>
+  <data name="MenuInboxTrainingPending" xml:space="preserve">
+    <value>Pend. Auto - Treinamento</value>
+  </data>
+  <data name="MenuInboxWithoutRelease" xml:space="preserve">
+    <value>Sem Versão</value>
+  </data>
+  <data name="MenuInsert" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="MenuInsertDocument" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="MenuInsertProcess" xml:space="preserve">
+    <value>Processos</value>
+  </data>
+  <data name="MenuIntegration" xml:space="preserve">
+    <value>Integração</value>
+  </data>
+  <data name="MenuKnowledgePending" xml:space="preserve">
+    <value>Pendências de Conhecimento</value>
+  </data>
+  <data name="MenuMailsLogManagement" xml:space="preserve">
+    <value>Logs de E-mails</value>
+  </data>
+  <data name="MenuMaintenanceTasks" xml:space="preserve">
+    <value>Manutenção de Tarefas</value>
+  </data>
+  <data name="MenuManagementTools" xml:space="preserve">
+    <value>Ferramentas Gestão</value>
+  </data>
+  <data name="MenuManagementToolsReports" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="MenuManagementToolsReportsSystemAccess" xml:space="preserve">
+    <value>Acesso ao Sistema</value>
+  </data>
+  <data name="MenuManagementToolsTasksByArea" xml:space="preserve">
+    <value>Tarefas por Área</value>
+  </data>
+  <data name="MenuManagementToolsTasksByAreaProcess" xml:space="preserve">
+    <value>Processos por Área</value>
+  </data>
+  <data name="MenuManagementToolsTasksByAreaUsers" xml:space="preserve">
+    <value>Tarefas por Área / Profissional</value>
+  </data>
+  <data name="MenuManagementToolsTasksByCell" xml:space="preserve">
+    <value>Tarefas por Célula</value>
+  </data>
+  <data name="MenuManagementToolsTasksByCellProcess" xml:space="preserve">
+    <value>Processos por Célula</value>
+  </data>
+  <data name="MenuManagementToolsTasksByCellUsers" xml:space="preserve">
+    <value>Tarefas por Célula / Profissional</value>
+  </data>
+  <data name="MenuManagementToolsWFByArea" xml:space="preserve">
+    <value>Processos por Área</value>
+  </data>
+  <data name="MenuManagementToolsWFTrack" xml:space="preserve">
+    <value>Monitoramento</value>
+  </data>
+  <data name="MenuModelInput" xml:space="preserve">
+    <value>Modelo de Entrada</value>
+  </data>
+  <data name="MenuMyProfile" xml:space="preserve">
+    <value>Meu Perfil</value>
+  </data>
+  <data name="MenuNotesNews" xml:space="preserve">
+    <value>Quadro de Avisos</value>
+  </data>
+  <data name="MenuParameter" xml:space="preserve">
+    <value>Parâmetros</value>
+  </data>
+  <data name="MenuRegister" xml:space="preserve">
+    <value>Cadastros</value>
+  </data>
+  <data name="MenuRegisterAccessGroup" xml:space="preserve">
+    <value>Acesso</value>
+  </data>
+  <data name="MenuRegisterArea" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="MenuRegisterCell" xml:space="preserve">
+    <value>Áreas</value>
+  </data>
+  <data name="MenuRegisterControlGroup" xml:space="preserve">
+    <value>Controle</value>
+  </data>
+  <data name="MenuRegisterCopyControlled" xml:space="preserve">
+    <value>por Biblioteca</value>
+  </data>
+  <data name="MenuRegisterCopyControlledByDocument" xml:space="preserve">
+    <value>por Documento</value>
+  </data>
+  <data name="MenuRegisterDefaultFlow" xml:space="preserve">
+    <value>Fluxos</value>
+  </data>
+  <data name="MenuRegisterDepartament" xml:space="preserve">
+    <value>Departamento</value>
+  </data>
+  <data name="MenuRegisterEc" xml:space="preserve">
+    <value>Ec</value>
+  </data>
+  <data name="MenuRegisterExtension" xml:space="preserve">
+    <value>Extensões</value>
+  </data>
+  <data name="MenuRegisterKnowledgePending" xml:space="preserve">
+    <value>por Biblioteca</value>
+  </data>
+  <data name="MenuRegisterKnowledgePendingByDocument" xml:space="preserve">
+    <value>por Documento</value>
+  </data>
+  <data name="MenuRegisterKnowledgePendingByUser" xml:space="preserve">
+    <value>por Usuário</value>
+  </data>
+  <data name="MenuRegisterLanguage" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="MenuRegisterLibrary" xml:space="preserve">
+    <value>Bibliotecas</value>
+  </data>
+  <data name="MenuRegisterLocalFile" xml:space="preserve">
+    <value>Locais de Arquivo</value>
+  </data>
+  <data name="MenuRegisterNotice" xml:space="preserve">
+    <value>Quadro de Avisos</value>
+  </data>
+  <data name="MenuRegisterNotification" xml:space="preserve">
+    <value>Notificação de Novos Documentos</value>
+  </data>
+  <data name="MenuRegisterOccupation" xml:space="preserve">
+    <value>Matriz Organizacional</value>
+  </data>
+  <data name="MenuRegisterRule" xml:space="preserve">
+    <value>Papeis</value>
+  </data>
+  <data name="MenuRegisterSchedule" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="MenuRegisterSector" xml:space="preserve">
+    <value>Setores</value>
+  </data>
+  <data name="MenuRegisterSupplier" xml:space="preserve">
+    <value>Fornecedor</value>
+  </data>
+  <data name="MenuRegisterTrade" xml:space="preserve">
+    <value>Business</value>
+  </data>
+  <data name="MenuRegisterType" xml:space="preserve">
+    <value>Tipos</value>
+  </data>
+  <data name="MenuRegisterUser" xml:space="preserve">
+    <value>Usuários</value>
+  </data>
+  <data name="MenuRptActiveDocuments" xml:space="preserve">
+    <value>Documentos Ativos</value>
+  </data>
+  <data name="MenuRptAreaBySector" xml:space="preserve">
+    <value>Lista de Área por Setor</value>
+  </data>
+  <data name="MenuRptAuthorizedDocumentsByUser" xml:space="preserve">
+    <value>Lista de Documentos por Usuário</value>
+  </data>
+  <data name="MenuRptCellBySector" xml:space="preserve">
+    <value>Lista de Célula por Setor</value>
+  </data>
+  <data name="MenuRptCopiesControlledByUser" xml:space="preserve">
+    <value>Cópias Controladas por Usuário</value>
+  </data>
+  <data name="MenuRptCopiesControlledByUserAndLibrary" xml:space="preserve">
+    <value>Matriz de Cópia Controlada</value>
+  </data>
+  <data name="MenuRptDelayedTaskByUser" xml:space="preserve">
+    <value>Tarefas Atrasadas por Usuário</value>
+  </data>
+  <data name="MenuRptDepartmentByArea" xml:space="preserve">
+    <value>Lista de Departamento por Área</value>
+  </data>
+  <data name="MenuRptDocumentHistory" xml:space="preserve">
+    <value>Documentos Históricos</value>
+  </data>
+  <data name="MenuRptDocumentLibrary" xml:space="preserve">
+    <value>Documentos por Biblioteca</value>
+  </data>
+  <data name="MenuRptDocumentsExcluded" xml:space="preserve">
+    <value>Documentos Excluídos</value>
+  </data>
+  <data name="MenuRptFailedConversionOfDocument" xml:space="preserve">
+    <value>Falha de Conversão de Documento</value>
+  </data>
+  <data name="MenuRptKnowledgePendingByUser" xml:space="preserve">
+    <value>Pendências de Conhecimento por Usuário</value>
+  </data>
+  <data name="MenuRptListDocumentsPendingReading" xml:space="preserve">
+    <value>Lista de Documentos Pendentes de Leitura</value>
+  </data>
+  <data name="MenuRptMatrixOrganizational" xml:space="preserve">
+    <value>Matriz Organizacional</value>
+  </data>
+  <data name="MenuRptNeedToKnowByUser" xml:space="preserve">
+    <value>Necessidade de Conhecimento por Usuário</value>
+  </data>
+  <data name="MenuRptNumberDocumentsForUsers" xml:space="preserve">
+    <value>Quantidade de Documentos por Usuários</value>
+  </data>
+  <data name="MenuRptNumberReadingDocuments" xml:space="preserve">
+    <value>Número de Documentos Pendentes de Leitura</value>
+  </data>
+  <data name="MenuRptPendingReview" xml:space="preserve">
+    <value>Pendências de Revisão</value>
+  </data>
+  <data name="MenuRptPendingReviewByCell" xml:space="preserve">
+    <value>Lista de Pendência de Revisão</value>
+  </data>
+  <data name="MenuRptPendingTaskByUser" xml:space="preserve">
+    <value>Tarefas Pendentes</value>
+  </data>
+  <data name="MenuRptPendingTaskListByUser" xml:space="preserve">
+    <value>Tarefas Pendentes</value>
+  </data>
+  <data name="MenuRptPendingTrainingByUser" xml:space="preserve">
+    <value>Necessidade de Treinamento por Usuário</value>
+  </data>
+  <data name="MenuRptRegistrationKnowledgePendingByUser" xml:space="preserve">
+    <value>Pendências de Conhecimento Cadastradas por Usuário</value>
+  </data>
+  <data name="MenuRptRequirementsFunctionByUser" xml:space="preserve">
+    <value>Requisitos da Função por Usuário</value>
+  </data>
+  <data name="MenuRptRequirementsMatrix" xml:space="preserve">
+    <value>Matriz de Requisitos</value>
+  </data>
+  <data name="MenuRptResponsibleApproverByDocument" xml:space="preserve">
+    <value>Responsáveis / Aprovadores por Documento</value>
+  </data>
+  <data name="MenuRptTrainingPendingByUser" xml:space="preserve">
+    <value>Pendências de Treinamento por Usuário</value>
+  </data>
+  <data name="MenuRptUsersActiveDirectory" xml:space="preserve">
+    <value>Usuários do Netdocs não Cadastrados no Active Directory</value>
+  </data>
+  <data name="MenuRptUsersOfTheSystem" xml:space="preserve">
+    <value>Usuários do Sistema</value>
+  </data>
+  <data name="MenuRptWorkflowDocument" xml:space="preserve">
+    <value>Documentos em Workflow</value>
+  </data>
+  <data name="MenuSearch" xml:space="preserve">
+    <value>Pesquisa</value>
+  </data>
+  <data name="MenuSearchAll" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="MenuSearchDelayTask" xml:space="preserve">
+    <value>Tarefas Atrasadas</value>
+  </data>
+  <data name="MenuSearchEngineeringDocuments" xml:space="preserve">
+    <value>Engenharia</value>
+  </data>
+  <data name="MenuSearchGeneral" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="MenuSearchGeneralDocuments" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="MenuSearchInDiscard" xml:space="preserve">
+    <value>Em Descarte</value>
+  </data>
+  <data name="MenuSearchInreview" xml:space="preserve">
+    <value>Em Revisão</value>
+  </data>
+  <data name="MenuSearchLoan" xml:space="preserve">
+    <value>Empréstimos</value>
+  </data>
+  <data name="MenuSearchLoanDelayed" xml:space="preserve">
+    <value>Em Atraso</value>
+  </data>
+  <data name="MenuSearchLoanLoaned" xml:space="preserve">
+    <value>Emprestados</value>
+  </data>
+  <data name="MenuSearchLoanReserved" xml:space="preserve">
+    <value>Reservados</value>
+  </data>
+  <data name="MenuServicesManagement" xml:space="preserve">
+    <value>Log de Serviços</value>
+  </data>
+  <data name="MenuTransferTasks" xml:space="preserve">
+    <value>Transferência de Tarefas</value>
+  </data>
+  <data name="MergeDocumentMessage" xml:space="preserve">
+    <value>Por favor, clique em Menu &gt; Finalizar Edição.</value>
+  </data>
+  <data name="MergeDocumentMessageExcel" xml:space="preserve">
+    <value>Por favor, primeiro selecione o arquivo OLD e depois o NEW, clique em Ferramenta NetDocs &gt; Barra de Ferramentas e clique no botão Finalizar Edição.</value>
+  </data>
+  <data name="MergeDocumentMessageWord" xml:space="preserve">
+    <value>Por favor, selecione o arquivo NEW, clique em Ferramenta NetDocs &gt; Barra de Ferramentas e clique no botão Finalizar Edição.</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="MinimumRecognition" xml:space="preserve">
+    <value>Reconhecimento Mínimo</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>Minuto</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Minutos</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Celular</value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Modelo de Documento</value>
+  </data>
+  <data name="ModelSuccessfullySaved" xml:space="preserve">
+    <value>Modelo salvo com sucesso.</value>
+  </data>
+  <data name="Module" xml:space="preserve">
+    <value>Módulo</value>
+  </data>
+  <data name="ModuleAccessGroup" xml:space="preserve">
+    <value>GRUPOS DE ACESSO</value>
+  </data>
+  <data name="ModuleAnnex" xml:space="preserve">
+    <value>ANEXOS</value>
+  </data>
+  <data name="ModuleArea" xml:space="preserve">
+    <value>ÁREAS</value>
+  </data>
+  <data name="ModuleCell" xml:space="preserve">
+    <value>ÁREAS</value>
+  </data>
+  <data name="ModuleCopyControlled" xml:space="preserve">
+    <value>CÓPIAS CONTROLADAS POR BIBLIOTECA</value>
+  </data>
+  <data name="ModuleCopyControlledByDocument" xml:space="preserve">
+    <value>CÓPIAS CONTROLADAS POR DOCUMENTO</value>
+  </data>
+  <data name="ModuleDepartment" xml:space="preserve">
+    <value>DEPARTAMENTOS</value>
+  </data>
+  <data name="ModuleDocument" xml:space="preserve">
+    <value>DOCUMENTOS</value>
+  </data>
+  <data name="ModuleEC" xml:space="preserve">
+    <value>EC</value>
+  </data>
+  <data name="ModuleExtension" xml:space="preserve">
+    <value>EXTENSÕES</value>
+  </data>
+  <data name="ModuleGroupControl" xml:space="preserve">
+    <value>GRUPOS DE CONTROLE</value>
+  </data>
+  <data name="ModuleInbox" xml:space="preserve">
+    <value>CAIXA DE ENTRADA</value>
+  </data>
+  <data name="ModuleInputModel" xml:space="preserve">
+    <value>MODELOS DE ENTRADA</value>
+  </data>
+  <data name="ModuleKnowledgePending" xml:space="preserve">
+    <value>PENDÊNCIAS DE CONHECIMENTO POR BIBLIOTECA</value>
+  </data>
+  <data name="ModuleKnowledgePendingByDocument" xml:space="preserve">
+    <value>PENDÊNCIAS DE CONHECIMENTO POR DOCUMENTO</value>
+  </data>
+  <data name="ModuleKnowledgePendingByUser" xml:space="preserve">
+    <value>PENDÊNCIAS DE CONHECIMENTO POR USUÁRIO</value>
+  </data>
+  <data name="ModuleLanguage" xml:space="preserve">
+    <value>IDIOMAS</value>
+  </data>
+  <data name="ModuleLibrary" xml:space="preserve">
+    <value>BIBLIOTECAS</value>
+  </data>
+  <data name="ModuleLocalFile" xml:space="preserve">
+    <value>LOCAIS DE ARQUIVO</value>
+  </data>
+  <data name="ModuleMailsLogManagement" xml:space="preserve">
+    <value>LOG DE E-MAIL</value>
+  </data>
+  <data name="ModuleMaintenanceTasks" xml:space="preserve">
+    <value>TRANSFERÊNCIA DE TAREFAS</value>
+  </data>
+  <data name="ModuleNotice" xml:space="preserve">
+    <value>QUADRO DE AVISOS</value>
+  </data>
+  <data name="ModuleNotification" xml:space="preserve">
+    <value>NOTIFICAÇÃO DE NOVOS DOCUMENTOS</value>
+  </data>
+  <data name="ModuleOccupation" xml:space="preserve">
+    <value>MATRIZ ORGANIZACIONAL</value>
+  </data>
+  <data name="ModuleParameter" xml:space="preserve">
+    <value>PARÂMETROS</value>
+  </data>
+  <data name="ModuleProcess" xml:space="preserve">
+    <value>PROCESSOS</value>
+  </data>
+  <data name="ModuleRule" xml:space="preserve">
+    <value>PAPÉIS</value>
+  </data>
+  <data name="ModuleSchedule" xml:space="preserve">
+    <value>AGENDAS</value>
+  </data>
+  <data name="ModuleSector" xml:space="preserve">
+    <value>SETORES</value>
+  </data>
+  <data name="ModuleServicesManagement" xml:space="preserve">
+    <value>LOG DE SERVIÇOS</value>
+  </data>
+  <data name="ModuleTaskMaintenance" xml:space="preserve">
+    <value>MANUTENÇÃO DE TAREFAS</value>
+  </data>
+  <data name="ModuleTrade" xml:space="preserve">
+    <value>BUSINESS</value>
+  </data>
+  <data name="ModuleType" xml:space="preserve">
+    <value>TIPOS</value>
+  </data>
+  <data name="ModuleUser" xml:space="preserve">
+    <value>USUÁRIOS</value>
+  </data>
+  <data name="ModuleWorkflow" xml:space="preserve">
+    <value>FLUXOS</value>
+  </data>
+  <data name="Monthly" xml:space="preserve">
+    <value>Mensal</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Mover</value>
+  </data>
+  <data name="MsgOpenFile" xml:space="preserve">
+    <value>Abrir &lt;b&gt;{0}&lt;/b&gt;?</value>
+  </data>
+  <data name="MsgPrintControlledCopy" xml:space="preserve">
+    <value>Imprimir cópia controlada &lt;b&gt;{0}&lt;/b&gt;?</value>
+  </data>
+  <data name="MsgPrintCopy" xml:space="preserve">
+    <value>Imprimir cópia &lt;b&gt;{0}&lt;/b&gt;?</value>
+  </data>
+  <data name="MsgPrintCorporativeDocument" xml:space="preserve">
+    <value>Impressão válida somente para documentos normativos!</value>
+  </data>
+  <data name="MsgRePrintControlledCopy" xml:space="preserve">
+    <value>Reimpimir cópia controlada &lt;b&gt;{0}&lt;/b&gt;?</value>
+  </data>
+  <data name="MsgSelectEcOrNumberSupplier" xml:space="preserve">
+    <value>Selecione um EC ou informe um número de fornecedor!</value>
+  </data>
+  <data name="MsgTellEc" xml:space="preserve">
+    <value>Informe o número do EC!</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="NetNumber" xml:space="preserve">
+    <value>Nº Net</value>
+  </data>
+  <data name="NewCopy" xml:space="preserve">
+    <value>Nova Cópia</value>
+  </data>
+  <data name="NewDocumentType" xml:space="preserve">
+    <value>Novo Tipo de Documento</value>
+  </data>
+  <data name="NewItem" xml:space="preserve">
+    <value>Novo Item</value>
+  </data>
+  <data name="NewLevel" xml:space="preserve">
+    <value>Novo Nível</value>
+  </data>
+  <data name="NewLibrary" xml:space="preserve">
+    <value>Nova Biblioteca</value>
+  </data>
+  <data name="NewPlaceFileLibrary" xml:space="preserve">
+    <value>Novo Local de Arquivo da Biblioteca</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Próxima</value>
+  </data>
+  <data name="Nivel" xml:space="preserve">
+    <value>Nível</value>
+  </data>
+  <data name="NivelAndSequence" xml:space="preserve">
+    <value>N / S</value>
+  </data>
+  <data name="NivelOccupationGroupControlValidateErrorMessage" xml:space="preserve">
+    <value>Esta tarefa não pode ser incluída neste nível, pois já existe um cargo ou um grupo de controle utilizando-a!</value>
+  </data>
+  <data name="NivelSequenceErrorMessage" xml:space="preserve">
+    <value>Já existe um registro com o Nível e a Seqüencia informada!</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="NoDataFound" xml:space="preserve">
+    <value>Nenhum registro encontrado!</value>
+  </data>
+  <data name="NoFileFound" xml:space="preserve">
+    <value>Sem arquivo cadastrado</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note/Notice</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>Aviso</value>
+  </data>
+  <data name="NotInstalledOrWithoutPermission" xml:space="preserve">
+    <value>Não instalado ou sem permissão na máquina {0}</value>
+  </data>
+  <data name="NoWorkflowRelated" xml:space="preserve">
+    <value>Este Documento Não Possui Fluxo!</value>
+  </data>
+  <data name="NumberDataFound" xml:space="preserve">
+    <value>&lt;b&gt;{0}&lt;/b&gt; Registro(s) encontrado(s) em &lt;b&gt;{1}&lt;/b&gt; página(s).</value>
+  </data>
+  <data name="Observation" xml:space="preserve">
+    <value>Observação</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>Cargo</value>
+  </data>
+  <data name="OccupationName" xml:space="preserve">
+    <value>Nome do Cargo</value>
+  </data>
+  <data name="OccupationPosition" xml:space="preserve">
+    <value>Cargo Referente</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="OnlyNumbers" xml:space="preserve">
+    <value>Somente Números</value>
+  </data>
+  <data name="OpenDocumentSigned" xml:space="preserve">
+    <value>Ocorreu o Erro {0} ao Abrir Documento Assinado!</value>
+  </data>
+  <data name="OpenFileQuestion" xml:space="preserve">
+    <value>O Documento Abriu ?</value>
+  </data>
+  <data name="Opening" xml:space="preserve">
+    <value>Abrindo</value>
+  </data>
+  <data name="OrderBy" xml:space="preserve">
+    <value>Ordenar por: </value>
+  </data>
+  <data name="OrderedBy" xml:space="preserve">
+    <value>Ordenado por</value>
+  </data>
+  <data name="OrganogramaPurviewNoRegister" xml:space="preserve">
+    <value>Sem alçada cadastrada!</value>
+  </data>
+  <data name="OrganogramaUserOccupationsNoRegister" xml:space="preserve">
+    <value>Sem usuários configurado para o cargo : {0}</value>
+  </data>
+  <data name="Origin" xml:space="preserve">
+    <value>Origem</value>
+  </data>
+  <data name="Paper" xml:space="preserve">
+    <value>Papel</value>
+  </data>
+  <data name="ParameterType" xml:space="preserve">
+    <value>Tipo de Parâmetro</value>
+  </data>
+  <data name="Participant" xml:space="preserve">
+    <value>Participante</value>
+  </data>
+  <data name="ParticipantType" xml:space="preserve">
+    <value>Tipo de Participante</value>
+  </data>
+  <data name="ParticipationDate" xml:space="preserve">
+    <value>Data Participação</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="PasswordConfirm" xml:space="preserve">
+    <value>Confirmação de Senha</value>
+  </data>
+  <data name="PasswordNew" xml:space="preserve">
+    <value>Nova Senha</value>
+  </data>
+  <data name="PasswordSignature" xml:space="preserve">
+    <value>Senha do Certificado Digital</value>
+  </data>
+  <data name="PendingPrint" xml:space="preserve">
+    <value>Pend. Impressão</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="Pha" xml:space="preserve">
+    <value>Pha</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="PhysicalLocation" xml:space="preserve">
+    <value>Local Físico</value>
+  </data>
+  <data name="PlaceFile" xml:space="preserve">
+    <value>Local de Arquivo</value>
+  </data>
+  <data name="PlaceFileLibrary" xml:space="preserve">
+    <value>Local de Arquivo da Biblioteca</value>
+  </data>
+  <data name="PlaceStorage" xml:space="preserve">
+    <value>Local de Armazenamento</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>Português</value>
+  </data>
+  <data name="PredictionOfEnd" xml:space="preserve">
+    <value>Prev. Término</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="PrintCopy" xml:space="preserve">
+    <value>Impressão de Cópia</value>
+  </data>
+  <data name="PrintCopyControlledLog" xml:space="preserve">
+    <value>Log de Cópia Controlada</value>
+  </data>
+  <data name="PrintDocument" xml:space="preserve">
+    <value>Imprimir Documento</value>
+  </data>
+  <data name="PrintedCopyUncontrolled" xml:space="preserve">
+    <value>Cópia Impressa Não Controlada</value>
+  </data>
+  <data name="Printer" xml:space="preserve">
+    <value>Impressor</value>
+  </data>
+  <data name="Printing" xml:space="preserve">
+    <value>Imprimindo</value>
+  </data>
+  <data name="PrintingLog" xml:space="preserve">
+    <value>Log de Impressão</value>
+  </data>
+  <data name="PrintPreview" xml:space="preserve">
+    <value>Visualizar Impressão</value>
+  </data>
+  <data name="PrintQuestion" xml:space="preserve">
+    <value>Impressão ok?</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Prioridade</value>
+  </data>
+  <data name="ProcessData" xml:space="preserve">
+    <value>Dados do Processo</value>
+  </data>
+  <data name="ProcessedData" xml:space="preserve">
+    <value>Dados Processados</value>
+  </data>
+  <data name="ProcessedDataNotFound" xml:space="preserve">
+    <value>Dados Processados não Encontrados!</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Projeto</value>
+  </data>
+  <data name="Publisher" xml:space="preserve">
+    <value>Editora</value>
+  </data>
+  <data name="Purview" xml:space="preserve">
+    <value>Alçada</value>
+  </data>
+  <data name="PurviewLess" xml:space="preserve">
+    <value>SEM ALÇADA</value>
+  </data>
+  <data name="PurviewOccupation" xml:space="preserve">
+    <value>Alçada do Cargo</value>
+  </data>
+  <data name="rbtAttachDocument" xml:space="preserve">
+    <value>Anexar Documento</value>
+  </data>
+  <data name="rbtChooseReturn" xml:space="preserve">
+    <value>OPTATIVO</value>
+  </data>
+  <data name="rbtForcingAllParticipate" xml:space="preserve">
+    <value>Participação Obrigatória de Todos</value>
+  </data>
+  <data name="rbtLinkDocument" xml:space="preserve">
+    <value>Vincular Documento</value>
+  </data>
+  <data name="rbtSelectJustOne" xml:space="preserve">
+    <value>Selecionar Somente Um</value>
+  </data>
+  <data name="rbtSelectOneOrMore" xml:space="preserve">
+    <value>Selecionar Um ou Mais Usuários</value>
+  </data>
+  <data name="rbtSendToAll" xml:space="preserve">
+    <value>Envia Para Todos e Somente Um Assume</value>
+  </data>
+  <data name="rbtUserChoose" xml:space="preserve">
+    <value>Usuário Define</value>
+  </data>
+  <data name="rbtWithoutReturn" xml:space="preserve">
+    <value>SEM RETORNO</value>
+  </data>
+  <data name="rbtWithReturn" xml:space="preserve">
+    <value>COM RETORNO</value>
+  </data>
+  <data name="Reading" xml:space="preserve">
+    <value>Leitura</value>
+  </data>
+  <data name="ReadOnly" xml:space="preserve">
+    <value>Somente Leitura</value>
+  </data>
+  <data name="Recipient" xml:space="preserve">
+    <value>Destinatário</value>
+  </data>
+  <data name="RejectType" xml:space="preserve">
+    <value>Tipo de Reprovação</value>
+  </data>
+  <data name="RelatedDocuments" xml:space="preserve">
+    <value>Documentos Relacionados</value>
+  </data>
+  <data name="ReloadProcessedData" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="RemoveAll" xml:space="preserve">
+    <value>Remover Todos</value>
+  </data>
+  <data name="RemovedLibraryMessage" xml:space="preserve">
+    <value>Removendo 'Direitos de Biblioteca', as &lt;b&gt;Cópias Controladas e Pendências de Conhecimento por Biblioteca e Documento&lt;/b&gt; também serão excluídas!&lt;br&gt;Confirma alteração?</value>
+  </data>
+  <data name="ReOpenFile" xml:space="preserve">
+    <value>Reabrir</value>
+  </data>
+  <data name="ReOpenFileQuestion" xml:space="preserve">
+    <value>Reabrir?</value>
+  </data>
+  <data name="RepeatDate" xml:space="preserve">
+    <value>Data Recorrente</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>Tipo de Relatório</value>
+  </data>
+  <data name="RePrint" xml:space="preserve">
+    <value>Reimprimir</value>
+  </data>
+  <data name="RePrintCopy" xml:space="preserve">
+    <value>Reimpressão de Cópia</value>
+  </data>
+  <data name="ReprintQuestion" xml:space="preserve">
+    <value>Reimprimir Cópia ?</value>
+  </data>
+  <data name="Reprocess" xml:space="preserve">
+    <value>Reprocessar</value>
+  </data>
+  <data name="ReprocessData" xml:space="preserve">
+    <value>Reprocessar Dados</value>
+  </data>
+  <data name="Reprogram" xml:space="preserve">
+    <value>Reprogramar</value>
+  </data>
+  <data name="RequestValidityApproverUser" xml:space="preserve">
+    <value>Informe o usuário aprovador!</value>
+  </data>
+  <data name="RequestValidityDateMessage" xml:space="preserve">
+    <value>Informe a validade do documento!</value>
+  </data>
+  <data name="RequestValidityResponsibleUser" xml:space="preserve">
+    <value>Informe o usuário responsável!</value>
+  </data>
+  <data name="Requirements" xml:space="preserve">
+    <value>Requisitos</value>
+  </data>
+  <data name="Research" xml:space="preserve">
+    <value>Pesquisar</value>
+  </data>
+  <data name="ReservationDocuments" xml:space="preserve">
+    <value>Reserva de Documentos</value>
+  </data>
+  <data name="Reserve" xml:space="preserve">
+    <value>Reservar</value>
+  </data>
+  <data name="ReserveCancel" xml:space="preserve">
+    <value>Cancelar Reserva</value>
+  </data>
+  <data name="ReserveData" xml:space="preserve">
+    <value>Dados de Reserva</value>
+  </data>
+  <data name="ReservedBy" xml:space="preserve">
+    <value>Reservado por</value>
+  </data>
+  <data name="ReservedFor" xml:space="preserve">
+    <value>Reservado para</value>
+  </data>
+  <data name="ReserverTo" xml:space="preserve">
+    <value>Reservar para</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Resetar Senha?</value>
+  </data>
+  <data name="ResponsibilityOfPrintingTheDocument" xml:space="preserve">
+    <value>É de total responsabilidade sua, a distribuição indevida deste documento. Deseja continuar?</value>
+  </data>
+  <data name="ResponsibilityOfSavingTheDocument" xml:space="preserve">
+    <value>Cópia não Controlada!
+Sua Distribuição é de Responsabilidade do Usuário.
+Deseja Continuar?</value>
+  </data>
+  <data name="Responsible" xml:space="preserve">
+    <value>Responsável</value>
+  </data>
+  <data name="ResponsibleRule" xml:space="preserve">
+    <value>Papel Responsável</value>
+  </data>
+  <data name="ResponsibleTask" xml:space="preserve">
+    <value>Responsável pela Tarefa</value>
+  </data>
+  <data name="ResponsibleType" xml:space="preserve">
+    <value>Tipo de Responsável</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Restaurar</value>
+  </data>
+  <data name="RestoreDataProcessed" xml:space="preserve">
+    <value>Restaurar Dados Processados</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Devolver</value>
+  </data>
+  <data name="ReturnDate" xml:space="preserve">
+    <value>Data de Devolução</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Revisão</value>
+  </data>
+  <data name="ReviewInProgress" xml:space="preserve">
+    <value>Revisão em Andamento</value>
+  </data>
+  <data name="ReviewPrinter" xml:space="preserve">
+    <value>Impressor da Revisão</value>
+  </data>
+  <data name="Route" xml:space="preserve">
+    <value>Rota</value>
+  </data>
+  <data name="rptTitleActiveDocuments" xml:space="preserve">
+    <value>Relatório de Documentos Ativos</value>
+  </data>
+  <data name="rptTitleAreaBySector" xml:space="preserve">
+    <value>Relatório de Área por Setor</value>
+  </data>
+  <data name="rptTitleAuthorizedDocumentsByUser" xml:space="preserve">
+    <value>Lista de Documentos por Usuários</value>
+  </data>
+  <data name="rptTitleCellBySector" xml:space="preserve">
+    <value>Relatório de Célula por Setor</value>
+  </data>
+  <data name="rptTitleCopiesControlledByUse" xml:space="preserve">
+    <value>Cópias Controladas por Usuário</value>
+  </data>
+  <data name="rptTitleCopiesControlledByUserAndLibrary" xml:space="preserve">
+    <value>Relatório de Matriz de Cópia Controlada</value>
+  </data>
+  <data name="rptTitleDelayedTaskByUser" xml:space="preserve">
+    <value>Relatório de Tarefas Atrasadas por Usuários</value>
+  </data>
+  <data name="rptTitleDepartmentByArea" xml:space="preserve">
+    <value>Relatório de Departamento por Área</value>
+  </data>
+  <data name="rptTitleDocumentHistory" xml:space="preserve">
+    <value>Relatório de Documentos Históricos</value>
+  </data>
+  <data name="rptTitleDocumentLibrary" xml:space="preserve">
+    <value>Relatório de Documentos por Biblioteca</value>
+  </data>
+  <data name="rptTitleDocumentsExcluded" xml:space="preserve">
+    <value>Relatório de Documentos Excluídos</value>
+  </data>
+  <data name="rptTitleFailedConversionOfDocument" xml:space="preserve">
+    <value>Relatório de Falha de Conversão de Documentos</value>
+  </data>
+  <data name="rptTitleKnowledgePendingByUser" xml:space="preserve">
+    <value>Relatório de Pendências de Conhecimento por Usuário</value>
+  </data>
+  <data name="rptTitleListDocumentsPendingReading" xml:space="preserve">
+    <value>Lista de Documentos Pendentes de Leitura</value>
+  </data>
+  <data name="rptTitleMatrixOrganizational" xml:space="preserve">
+    <value>Relatório de Matriz Organizacional</value>
+  </data>
+  <data name="rptTitleNeedToKnowByUser" xml:space="preserve">
+    <value>Relatório de Necessidade de Conhecimento por Usuário</value>
+  </data>
+  <data name="rptTitleNumberDocumentsForUsers" xml:space="preserve">
+    <value>Quantidade de Documentos por Usuários</value>
+  </data>
+  <data name="rptTitleNumberReadingDocuments" xml:space="preserve">
+    <value>Relatório com o  Número de Documentos Pendentes de Leitura</value>
+  </data>
+  <data name="rptTitlePendingReview" xml:space="preserve">
+    <value>Relatório de Pendências de Revisão</value>
+  </data>
+  <data name="rptTitlePendingReviewByCell" xml:space="preserve">
+    <value>Lista de Pendências de Revisão</value>
+  </data>
+  <data name="rptTitlePendingTaskByUser" xml:space="preserve">
+    <value>Relatório de Tarefas Pendentes</value>
+  </data>
+  <data name="rptTitlePendingTaskListByUser" xml:space="preserve">
+    <value>Relatório de Tarefas Pendentes</value>
+  </data>
+  <data name="rptTitlePendingTrainingByUser" xml:space="preserve">
+    <value>Necessidade de Treinamento por Usuário</value>
+  </data>
+  <data name="rptTitleRegistrationKnowledgePendingByUser" xml:space="preserve">
+    <value>Relatório de Pendências de Conhecimento Cadastradas por Usuário</value>
+  </data>
+  <data name="rptTitleRequirementsFunctionByUser" xml:space="preserve">
+    <value>Requisitos da Função por Usuário</value>
+  </data>
+  <data name="rptTitleRequirementsMatrix" xml:space="preserve">
+    <value>Relatório de Matriz de Requisitos</value>
+  </data>
+  <data name="rptTitleResponsibleApproverByDocument" xml:space="preserve">
+    <value>Relatório Responsáveis / Aprovadores por Documento</value>
+  </data>
+  <data name="rptTitleTrainingPendingByUser" xml:space="preserve">
+    <value>Relatório de Pendências de Treinamento por Usuário</value>
+  </data>
+  <data name="rptTitleUsersActiveDirectory" xml:space="preserve">
+    <value>Relatório de Usuários NetDocs não Cadastrados no Active Directory</value>
+  </data>
+  <data name="rptTitleUsersOfTheSystem" xml:space="preserve">
+    <value>Relatório de Usuários do Sistema</value>
+  </data>
+  <data name="rptTitleWorkflowDocument" xml:space="preserve">
+    <value>Relatório de Documentos em Workflow</value>
+  </data>
+  <data name="Rule" xml:space="preserve">
+    <value>Direito</value>
+  </data>
+  <data name="SaveCopy" xml:space="preserve">
+    <value>Salvar Cópia</value>
+  </data>
+  <data name="SaveDocument" xml:space="preserve">
+    <value>Salvar Documento</value>
+  </data>
+  <data name="SaveDocumentBeforeCloseMessage" xml:space="preserve">
+    <value>Deseja salvar as alterações ?</value>
+  </data>
+  <data name="Schedule" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="SchedulingData" xml:space="preserve">
+    <value>Dados do Agendamento</value>
+  </data>
+  <data name="SchedulingType" xml:space="preserve">
+    <value>Tipo de Agendamento</value>
+  </data>
+  <data name="SecondaryEmail" xml:space="preserve">
+    <value>E-mail Secundário</value>
+  </data>
+  <data name="Sector" xml:space="preserve">
+    <value>Setor</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Selecionar</value>
+  </data>
+  <data name="SelectedItem" xml:space="preserve">
+    <value>Selecione o item desejado!</value>
+  </data>
+  <data name="SelectGroup" xml:space="preserve">
+    <value>Selecione um Grupo!</value>
+  </data>
+  <data name="SelectGroupMessage" xml:space="preserve">
+    <value>Selecione um Grupo de Acesso!</value>
+  </data>
+  <data name="SelectItem" xml:space="preserve">
+    <value>Selecione um item!</value>
+  </data>
+  <data name="SelectJustOne" xml:space="preserve">
+    <value>Selecione apenas um item!</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Selecione o idioma</value>
+  </data>
+  <data name="SelectOne" xml:space="preserve">
+    <value>Selecione ao menos um item!</value>
+  </data>
+  <data name="SelectOneFileLocation" xml:space="preserve">
+    <value>Selecione ao menos um Local de Arquivo!</value>
+  </data>
+  <data name="SelectOneType" xml:space="preserve">
+    <value>Selecione ao menos um Tipo!</value>
+  </data>
+  <data name="SelectTaskDisapproveParameterMessage" xml:space="preserve">
+    <value>Selecione uma tarefa para que o fluxo seja reiniciado após a reprovação</value>
+  </data>
+  <data name="SelectTheType" xml:space="preserve">
+    <value>Selecione o Tipo</value>
+  </data>
+  <data name="SelectUser" xml:space="preserve">
+    <value>Selecione um Usuário!</value>
+  </data>
+  <data name="SelectValidDigitalSignatureFile" xml:space="preserve">
+    <value>Selecione um Arquivo de Assinatura Digital Válido!</value>
+  </data>
+  <data name="SemiAutomatic" xml:space="preserve">
+    <value>Semi-Automático</value>
+  </data>
+  <data name="Sequence" xml:space="preserve">
+    <value>Seqüencia</value>
+  </data>
+  <data name="Serie" xml:space="preserve">
+    <value>Serie</value>
+  </data>
+  <data name="ServerName" xml:space="preserve">
+    <value>Nome do Servidor</value>
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>Serviço</value>
+  </data>
+  <data name="ServiceActiveDirectory" xml:space="preserve">
+    <value>Importa usuários do Active Directory e informa o responsável configurado</value>
+  </data>
+  <data name="ServiceAutoReview" xml:space="preserve">
+    <value>Efetua revisão automática dos documentos e informa o responsável do documento</value>
+  </data>
+  <data name="ServiceByPass" xml:space="preserve">
+    <value>Efetua participação automática das tarefas e altera status de pendente para atrasado</value>
+  </data>
+  <data name="ServiceClearDiscard" xml:space="preserve">
+    <value>Limpa documentos em descarte</value>
+  </data>
+  <data name="ServiceCode" xml:space="preserve">
+    <value>Código do Serviço</value>
+  </data>
+  <data name="ServiceDays" xml:space="preserve">
+    <value>(dias)</value>
+  </data>
+  <data name="ServiceDelayedTaskMail" xml:space="preserve">
+    <value>Muda status de tarefas</value>
+  </data>
+  <data name="ServiceDocumentExtractor" xml:space="preserve">
+    <value>Extrator de Documentos</value>
+  </data>
+  <data name="ServiceDocumentInput" xml:space="preserve">
+    <value>Modelo de Entrada - OCR</value>
+  </data>
+  <data name="ServiceDocumentsExpired" xml:space="preserve">
+    <value>Informa o responsável do documento os documentos com validade vencida</value>
+  </data>
+  <data name="ServiceDocumentsToExpire" xml:space="preserve">
+    <value>Informa o responsável do documento os documentos com validade a vencer</value>
+  </data>
+  <data name="ServiceEmptyTrashFiles" xml:space="preserve">
+    <value>Limpa arquivos temporários no servidor</value>
+  </data>
+  <data name="ServiceExtractPending" xml:space="preserve">
+    <value>Informa pendências de Cópia Controlada, Auto-Treinamento e Conhecimento</value>
+  </data>
+  <data name="ServiceExtractTaskMail" xml:space="preserve">
+    <value>Notificação de lista de tarefas pendentes para o usuário responsável.</value>
+  </data>
+  <data name="ServiceHours" xml:space="preserve">
+    <value>(horas)</value>
+  </data>
+  <data name="ServiceLog" xml:space="preserve">
+    <value>Log do Serviço</value>
+  </data>
+  <data name="ServiceManagementInformation" xml:space="preserve">
+    <value>Para gerenciar o serviço, a autenticação anônima no IIS deve dever ser desabilitada!</value>
+  </data>
+  <data name="ServiceMinutes" xml:space="preserve">
+    <value>(minutos)</value>
+  </data>
+  <data name="ServiceNameActiveDirectory" xml:space="preserve">
+    <value>Active Directory</value>
+  </data>
+  <data name="ServiceNameAutoReview" xml:space="preserve">
+    <value>Revisão Automática</value>
+  </data>
+  <data name="ServiceNameByPass" xml:space="preserve">
+    <value>By-Pass</value>
+  </data>
+  <data name="ServiceNameClearDocuments" xml:space="preserve">
+    <value>Limpar Descarte</value>
+  </data>
+  <data name="ServiceNameDelayedTaskMail" xml:space="preserve">
+    <value>Tarefas Atrasadas</value>
+  </data>
+  <data name="ServiceNameDocumentExtractor" xml:space="preserve">
+    <value>Extrair Documentos para o Conversor</value>
+  </data>
+  <data name="ServiceNameDocumentInput" xml:space="preserve">
+    <value>Importa Imagens e Xmls</value>
+  </data>
+  <data name="ServiceNameDocumentsExpired" xml:space="preserve">
+    <value>Documentos Expirados</value>
+  </data>
+  <data name="ServiceNameDocumentsToExpire" xml:space="preserve">
+    <value>Documentos a Expirar</value>
+  </data>
+  <data name="ServiceNameEmptyTrashFiles" xml:space="preserve">
+    <value>Limpar Documentos Downloads</value>
+  </data>
+  <data name="ServiceNameExtractPending" xml:space="preserve">
+    <value>Extrato de Pendências</value>
+  </data>
+  <data name="ServiceNameExtractTaskMail" xml:space="preserve">
+    <value>Extrato de Tarefas</value>
+  </data>
+  <data name="ServiceNameNewDocumentsVersion" xml:space="preserve">
+    <value>Nova Versão de Documento</value>
+  </data>
+  <data name="ServiceNameRecognition" xml:space="preserve">
+    <value>Reconhecimento de Imagem</value>
+  </data>
+  <data name="ServiceNameTaskMail" xml:space="preserve">
+    <value>E-Mail de Tarefas</value>
+  </data>
+  <data name="ServiceNameTrainingLoad" xml:space="preserve">
+    <value>Carga de Treinamento</value>
+  </data>
+  <data name="ServiceNewDocumentsVersion" xml:space="preserve">
+    <value>Informa as novas versões dos documentos ativados</value>
+  </data>
+  <data name="ServiceRecognition" xml:space="preserve">
+    <value>Reconhecimento de imagem - OCR</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Serviços</value>
+  </data>
+  <data name="ServiceSeconds" xml:space="preserve">
+    <value>(segundos)</value>
+  </data>
+  <data name="ServiceTrainingLoad" xml:space="preserve">
+    <value>Carga de Treinamento</value>
+  </data>
+  <data name="Sheet" xml:space="preserve">
+    <value>Folha</value>
+  </data>
+  <data name="ShowAdvancedFilter" xml:space="preserve">
+    <value>Exibir Pesquisa Avançada</value>
+  </data>
+  <data name="SignatureData" xml:space="preserve">
+    <value>Dados da Assinatura Digital</value>
+  </data>
+  <data name="SignError" xml:space="preserve">
+    <value>Ocorreu o Erro {0} ao Assinar Documento!</value>
+  </data>
+  <data name="SiteMapArea" xml:space="preserve">
+    <value>Áreas</value>
+  </data>
+  <data name="SiteMapAreaData" xml:space="preserve">
+    <value>Dados da Área</value>
+  </data>
+  <data name="SiteMapAreaRegister" xml:space="preserve">
+    <value>Cadastro de Área</value>
+  </data>
+  <data name="SiteMapBoardNotice" xml:space="preserve">
+    <value>Quadro de Avisos</value>
+  </data>
+  <data name="SiteMapCell" xml:space="preserve">
+    <value>Áreas</value>
+  </data>
+  <data name="SiteMapCellData" xml:space="preserve">
+    <value>Dados da Célula</value>
+  </data>
+  <data name="SiteMapCellRegister" xml:space="preserve">
+    <value>Cadastro de Célula</value>
+  </data>
+  <data name="SiteMapCopyControlledByDocument" xml:space="preserve">
+    <value>Cópias Controladas por Documento</value>
+  </data>
+  <data name="SiteMapCopyControlledByDocumentData" xml:space="preserve">
+    <value>Dados da Cópia Controlada por Documento</value>
+  </data>
+  <data name="SiteMapCopyControlledByDocumentRegister" xml:space="preserve">
+    <value>Cadastro de Cópia Controlada por Documento</value>
+  </data>
+  <data name="SiteMapCopyControlledByLibrary" xml:space="preserve">
+    <value>Cópias Controladas por Biblioteca</value>
+  </data>
+  <data name="SiteMapCopyControlledByLibraryData" xml:space="preserve">
+    <value>Dados da Cópia Controlada por Biblioteca</value>
+  </data>
+  <data name="SiteMapCopyControlledByLibraryRegister" xml:space="preserve">
+    <value>Cadastro de Cópia Controlada por Biblioteca</value>
+  </data>
+  <data name="SiteMapDefault" xml:space="preserve">
+    <value>Página Principal</value>
+  </data>
+  <data name="SiteMapDepartment" xml:space="preserve">
+    <value>Departamentos</value>
+  </data>
+  <data name="SiteMapDepartmentData" xml:space="preserve">
+    <value>Dados do Departamento</value>
+  </data>
+  <data name="SiteMapDepartmentRegister" xml:space="preserve">
+    <value>Cadastro de Departamento</value>
+  </data>
+  <data name="SiteMapDetailsTask" xml:space="preserve">
+    <value>Detalhes da Tarefa</value>
+  </data>
+  <data name="SiteMapDocumentFilter" xml:space="preserve">
+    <value>Pesquisar</value>
+  </data>
+  <data name="SiteMapDocumentFilterResult" xml:space="preserve">
+    <value>Resultado da Pesquisa</value>
+  </data>
+  <data name="SiteMapDocumentRegister" xml:space="preserve">
+    <value>Cadastro de Documento</value>
+  </data>
+  <data name="SiteMapEc" xml:space="preserve">
+    <value>Ec</value>
+  </data>
+  <data name="SiteMapEcData" xml:space="preserve">
+    <value>Dados do Ec</value>
+  </data>
+  <data name="SiteMapEcRegister" xml:space="preserve">
+    <value>Cadastro de Ec</value>
+  </data>
+  <data name="SiteMapExtension" xml:space="preserve">
+    <value>Extensões</value>
+  </data>
+  <data name="SiteMapExtensionData" xml:space="preserve">
+    <value>Dados da Extensão</value>
+  </data>
+  <data name="SiteMapExtensionRegister" xml:space="preserve">
+    <value>Cadastro de Extensão</value>
+  </data>
+  <data name="SiteMapFileLocation" xml:space="preserve">
+    <value>Locais de Arquivo</value>
+  </data>
+  <data name="SiteMapFileLocationData" xml:space="preserve">
+    <value>Dados do Local de Arquivo</value>
+  </data>
+  <data name="SiteMapFileLocationRegister" xml:space="preserve">
+    <value>Cadastro de Local de Arquivo</value>
+  </data>
+  <data name="SiteMapFlowTemplate" xml:space="preserve">
+    <value>Fluxos</value>
+  </data>
+  <data name="SiteMapFlowTemplateData" xml:space="preserve">
+    <value>Dados do Fluxo</value>
+  </data>
+  <data name="SiteMapFlowTemplateRegister" xml:space="preserve">
+    <value>Cadastro de Fluxo</value>
+  </data>
+  <data name="SiteMapGroup" xml:space="preserve">
+    <value>Grupo de Acesso</value>
+  </data>
+  <data name="SiteMapGroupControl" xml:space="preserve">
+    <value>Grupos de Controle</value>
+  </data>
+  <data name="SiteMapGroupControlData" xml:space="preserve">
+    <value>Dados do Grupo de Controle</value>
+  </data>
+  <data name="SiteMapGroupControlRegister" xml:space="preserve">
+    <value>Cadastro de Grupo de Controle</value>
+  </data>
+  <data name="SiteMapGroupData" xml:space="preserve">
+    <value>Dados do Grupo de Acesso</value>
+  </data>
+  <data name="SiteMapGroupRegister" xml:space="preserve">
+    <value>Cadastro de Grupo de Acesso</value>
+  </data>
+  <data name="SiteMapInbox" xml:space="preserve">
+    <value>Caixa de Entrada</value>
+  </data>
+  <data name="SiteMapIndicators" xml:space="preserve">
+    <value>Indicadores</value>
+  </data>
+  <data name="SiteMapInputModel" xml:space="preserve">
+    <value>Modelo de Entrada</value>
+  </data>
+  <data name="SiteMapInputModelData" xml:space="preserve">
+    <value>Dados do Modelo de Entrada</value>
+  </data>
+  <data name="SiteMapInputModelRegister" xml:space="preserve">
+    <value>Cadastro de Modelo de Entrada</value>
+  </data>
+  <data name="SiteMapKnowledgePending" xml:space="preserve">
+    <value>Pendências de Conhecimento por Biblioteca</value>
+  </data>
+  <data name="SiteMapKnowledgePendingByDocument" xml:space="preserve">
+    <value>Pendências de Conhecimento por Documento</value>
+  </data>
+  <data name="SiteMapKnowledgePendingByDocumentData" xml:space="preserve">
+    <value>Dados da Pendência de Conhecimento por Documento</value>
+  </data>
+  <data name="SiteMapKnowledgePendingByDocumentRegister" xml:space="preserve">
+    <value>Cadastro de Pendência de Conhecimento por Documento</value>
+  </data>
+  <data name="SiteMapKnowledgePendingByUser" xml:space="preserve">
+    <value>Pendências de Conhecimento por Usuário</value>
+  </data>
+  <data name="SiteMapKnowledgePendingByUserData" xml:space="preserve">
+    <value>Dados da Pendência de Conhecimento por Usuário</value>
+  </data>
+  <data name="SiteMapKnowledgePendingByUserRegister" xml:space="preserve">
+    <value>Cadastro de Pendência de Conhecimento por Usuário</value>
+  </data>
+  <data name="SiteMapKnowledgePendingData" xml:space="preserve">
+    <value>Dados da Pendência de Conhecimento por Biblioteca</value>
+  </data>
+  <data name="SiteMapKnowledgePendingRegister" xml:space="preserve">
+    <value>Cadastro de Pendência de Conhecimento por Biblioteca</value>
+  </data>
+  <data name="SiteMapLanguage" xml:space="preserve">
+    <value>Idiomas</value>
+  </data>
+  <data name="SiteMapLanguageData" xml:space="preserve">
+    <value>Dados do Idioma</value>
+  </data>
+  <data name="SiteMapLanguageRegister" xml:space="preserve">
+    <value>Cadastro de Idioma</value>
+  </data>
+  <data name="SiteMapLibrary" xml:space="preserve">
+    <value>Bibliotecas</value>
+  </data>
+  <data name="SiteMapLibraryData" xml:space="preserve">
+    <value>Dados da Biblioteca</value>
+  </data>
+  <data name="SiteMapLibraryRegister" xml:space="preserve">
+    <value>Cadastro de Biblioteca</value>
+  </data>
+  <data name="SiteMapMailsLogManagement" xml:space="preserve">
+    <value>Logs de E-mails</value>
+  </data>
+  <data name="SiteMapMaintenanceTask" xml:space="preserve">
+    <value>Manutenção de Tarefas</value>
+  </data>
+  <data name="SiteMapMaintenanceTasks" xml:space="preserve">
+    <value>Transferência de Tarefas</value>
+  </data>
+  <data name="SiteMapNotice" xml:space="preserve">
+    <value>Quadro de Avisos</value>
+  </data>
+  <data name="SiteMapNoticeData" xml:space="preserve">
+    <value>Dados do Aviso</value>
+  </data>
+  <data name="SiteMapNoticeRegister" xml:space="preserve">
+    <value>Cadastro de Aviso</value>
+  </data>
+  <data name="SiteMapNotification" xml:space="preserve">
+    <value>Notificação de Novos Documentos</value>
+  </data>
+  <data name="SiteMapNotificationRegister" xml:space="preserve">
+    <value>Cadastro de Notificação de Novos Documentos</value>
+  </data>
+  <data name="SiteMapOccupation" xml:space="preserve">
+    <value>Matriz Organizacional</value>
+  </data>
+  <data name="SiteMapOccupationData" xml:space="preserve">
+    <value>Dados da Matriz Organizacional</value>
+  </data>
+  <data name="SiteMapOccupationRegister" xml:space="preserve">
+    <value>Cadastro de Matriz Organizacional</value>
+  </data>
+  <data name="SiteMapParameter" xml:space="preserve">
+    <value>Parâmetros</value>
+  </data>
+  <data name="SiteMapParameterData" xml:space="preserve">
+    <value>Dados dos Parâmetros</value>
+  </data>
+  <data name="SiteMapParameterRegister" xml:space="preserve">
+    <value>Cadastro de Parâmetros</value>
+  </data>
+  <data name="SiteMapProcessRegister" xml:space="preserve">
+    <value>Cadastro de Processo</value>
+  </data>
+  <data name="SiteMapReports" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="SiteMapRule" xml:space="preserve">
+    <value>Papeis</value>
+  </data>
+  <data name="SiteMapRuleData" xml:space="preserve">
+    <value>Dados do Papel</value>
+  </data>
+  <data name="SiteMapRuleRegister" xml:space="preserve">
+    <value>Cadastro de Papel</value>
+  </data>
+  <data name="SiteMapSchedule" xml:space="preserve">
+    <value>Agendas</value>
+  </data>
+  <data name="SiteMapScheduleData" xml:space="preserve">
+    <value>Dados da Agenda</value>
+  </data>
+  <data name="SiteMapScheduleRegister" xml:space="preserve">
+    <value>Cadastro de Agenda</value>
+  </data>
+  <data name="SiteMapSector" xml:space="preserve">
+    <value>Setores</value>
+  </data>
+  <data name="SiteMapSectorData" xml:space="preserve">
+    <value>Dados do Sector</value>
+  </data>
+  <data name="SiteMapSectorRegister" xml:space="preserve">
+    <value>Cadastro de Setor</value>
+  </data>
+  <data name="SiteMapSelectedItem" xml:space="preserve">
+    <value>Seleção de Menu</value>
+  </data>
+  <data name="SiteMapServicesManagement" xml:space="preserve">
+    <value>Gestão de Serviços</value>
+  </data>
+  <data name="SiteMapSupplier" xml:space="preserve">
+    <value>Fornecedores</value>
+  </data>
+  <data name="SiteMapSupplierData" xml:space="preserve">
+    <value>Dados do Fornecedor</value>
+  </data>
+  <data name="SiteMapSupplierRegister" xml:space="preserve">
+    <value>Cadastro de Fornecedor</value>
+  </data>
+  <data name="SiteMapTasksByArea" xml:space="preserve">
+    <value>Tarefas por Área</value>
+  </data>
+  <data name="SiteMapTasksByAreaProcess" xml:space="preserve">
+    <value>Processos por Área</value>
+  </data>
+  <data name="SiteMapTrade" xml:space="preserve">
+    <value>Business</value>
+  </data>
+  <data name="SiteMapTradeData" xml:space="preserve">
+    <value>Dados de Business</value>
+  </data>
+  <data name="SiteMapTradeRegister" xml:space="preserve">
+    <value>Cadastro de Business</value>
+  </data>
+  <data name="SiteMapType" xml:space="preserve">
+    <value>Tipos</value>
+  </data>
+  <data name="SiteMapTypeData" xml:space="preserve">
+    <value>Dados da Tipo</value>
+  </data>
+  <data name="SiteMapTypeRegister" xml:space="preserve">
+    <value>Cadastro de Tipo</value>
+  </data>
+  <data name="SiteMapUser" xml:space="preserve">
+    <value>Usuários</value>
+  </data>
+  <data name="SiteMapUserAssociateGroupControlRegister" xml:space="preserve">
+    <value>Cadastro de Associação de Usuário</value>
+  </data>
+  <data name="SiteMapUserAssociateRegister" xml:space="preserve">
+    <value>Cadastro de Associação de Usuário</value>
+  </data>
+  <data name="SiteMapUserData" xml:space="preserve">
+    <value>Dados do Usuário</value>
+  </data>
+  <data name="SiteMapUserDelegateGroupControlRegister" xml:space="preserve">
+    <value>Cadastro de Delegação de Usuário</value>
+  </data>
+  <data name="SiteMapUserDelegateRegister" xml:space="preserve">
+    <value>Cadastro de Delegação de Usuário</value>
+  </data>
+  <data name="SiteMapUserRegister" xml:space="preserve">
+    <value>Cadastro de Usuário</value>
+  </data>
+  <data name="SiteRegistration" xml:space="preserve">
+    <value>Local de Cadastro</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="Specific" xml:space="preserve">
+    <value>Específico</value>
+  </data>
+  <data name="SpecifyDate" xml:space="preserve">
+    <value>Data Específica</value>
+  </data>
+  <data name="Stage" xml:space="preserve">
+    <value>Etapa</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Data Início</value>
+  </data>
+  <data name="StartDateHour" xml:space="preserve">
+    <value>Data/Hora Início</value>
+  </data>
+  <data name="Started" xml:space="preserve">
+    <value>Iniciado</value>
+  </data>
+  <data name="StartedFlowDate" xml:space="preserve">
+    <value>Data de Início do Workflow</value>
+  </data>
+  <data name="StartFlowDefaultObservation" xml:space="preserve">
+    <value>Workflow iniciado com sucesso.</value>
+  </data>
+  <data name="StartReview" xml:space="preserve">
+    <value>Início da Revisão</value>
+  </data>
+  <data name="StartUserValidateErrorMessage" xml:space="preserve">
+    <value>A primeira tarefa deve conter um papel com a função de iniciar workflow!</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StefaniniName" xml:space="preserve">
+    <value>Copyright Stefanini S. A.</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>Etapa</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Parar</value>
+  </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>Parado</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Assunto</value>
+  </data>
+  <data name="SucessMessage" xml:space="preserve">
+    <value>Operação realizada com sucesso!</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Resumo</value>
+  </data>
+  <data name="Supplier" xml:space="preserve">
+    <value>Fornecedor</value>
+  </data>
+  <data name="SupplierNumber" xml:space="preserve">
+    <value>Nº Fornecedor</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="SystemName" xml:space="preserve">
+    <value>NetDocs® 1997</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Task" xml:space="preserve">
+    <value>Tarefa</value>
+  </data>
+  <data name="TaskCompletedSuccessfully" xml:space="preserve">
+    <value>Tarefas Finalizadas com Sucesso!</value>
+  </data>
+  <data name="TaskConfirmation" xml:space="preserve">
+    <value>Confirmação de Execução de Tarefa</value>
+  </data>
+  <data name="TaskDocumentHelp" xml:space="preserve">
+    <value>Documento de Ajuda da Tarefa</value>
+  </data>
+  <data name="TaskPendingExecution" xml:space="preserve">
+    <value>Tarefa Pendente de Execução</value>
+  </data>
+  <data name="TasksTransferredSuccessfully" xml:space="preserve">
+    <value>Tarefas Transferidas com Sucesso!</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="ThereAreTasksForUser" xml:space="preserve">
+    <value>Não há Tarefas a Serem Finalizadas Para o Usuário!</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="TitleCopyControlledPopUp" xml:space="preserve">
+    <value>Impressão de Cópia Controlada</value>
+  </data>
+  <data name="TitleRePrintCopyControlledPopUp" xml:space="preserve">
+    <value>Reimpressão de Cópia Controlada</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Para</value>
+  </data>
+  <data name="ToDefine" xml:space="preserve">
+    <value>A Definir</value>
+  </data>
+  <data name="ToDefineConfigurations" xml:space="preserve">
+    <value>Configurações da Reprovação</value>
+  </data>
+  <data name="TotalOfCopy" xml:space="preserve">
+    <value>Total Cópias</value>
+  </data>
+  <data name="TotalOfDocuments" xml:space="preserve">
+    <value>Total de Documentos</value>
+  </data>
+  <data name="Trade" xml:space="preserve">
+    <value>Business</value>
+  </data>
+  <data name="TrainingPending" xml:space="preserve">
+    <value>Pend. Auto - Treinamento</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="TypeLinkedDigitalSignature" xml:space="preserve">
+    <value>Tipo vinculado a assinatura digital?</value>
+  </data>
+  <data name="TypeWithoutFile" xml:space="preserve">
+    <value>Para documentos normativos é necessário que seja escolhido um Tipo que possua arquivo!</value>
+  </data>
+  <data name="UnableToDelete" xml:space="preserve">
+    <value>Não foi possível excluir o registro {0} pois existe &lt;b&gt;{1}&lt;/b&gt; vinculado!</value>
+  </data>
+  <data name="UnableToSaveTheFile" xml:space="preserve">
+    <value>Não foi possivel salvar o arquivo.</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="UpdateDate" xml:space="preserve">
+    <value>Data de Atualização</value>
+  </data>
+  <data name="UpdatedSuccessfully" xml:space="preserve">
+    <value>Atualização efetuada com sucesso!</value>
+  </data>
+  <data name="UpdatingRelatedUsers" xml:space="preserve">
+    <value>Atualizando usuários relacionados...</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="UserCode" xml:space="preserve">
+    <value>Código do Usuário</value>
+  </data>
+  <data name="UserCodeMask" xml:space="preserve">
+    <value>Máscara Numérica (de 1 a 9 dígitos)</value>
+  </data>
+  <data name="UserData" xml:space="preserve">
+    <value>Dados do Usuário</value>
+  </data>
+  <data name="UserIsNotRelatedGroupControlUserMessage" xml:space="preserve">
+    <value>Selecione outro usuário!&lt;BR&gt;
+O &lt;b&gt;{0}&lt;/b&gt; não está mais&lt;br&gt;relacionado no grupo de controle &lt;b&gt;{1}&lt;/b&gt;.</value>
+  </data>
+  <data name="UserIsNotRelatedOccupationUserMessage" xml:space="preserve">
+    <value>Selecione outro usuário!&lt;BR&gt;
+O &lt;b&gt;{0}&lt;/b&gt; não está mais&lt;br&gt;relacionado no cargo &lt;b&gt;{1}&lt;/b&gt;.</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Usuários</value>
+  </data>
+  <data name="UsersAssociate" xml:space="preserve">
+    <value>Usuários Associados</value>
+  </data>
+  <data name="UsersAvailable" xml:space="preserve">
+    <value>Usuários Disponíveis</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Validade</value>
+  </data>
+  <data name="ValidateData" xml:space="preserve">
+    <value>Validar Dados</value>
+  </data>
+  <data name="ValidateDate" xml:space="preserve">
+    <value>Data de Validade</value>
+  </data>
+  <data name="ValidateDaysToReview" xml:space="preserve">
+    <value>Ciclo de Dias para Revisão</value>
+  </data>
+  <data name="ValidateProcessing" xml:space="preserve">
+    <value>Validar Processamento</value>
+  </data>
+  <data name="ValidDocumentUntil" xml:space="preserve">
+    <value>Documento válido até:</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Versão</value>
+  </data>
+  <data name="ViewMailContent" xml:space="preserve">
+    <value>Ver Conteúdo do E-Mail</value>
+  </data>
+  <data name="VSApprover" xml:space="preserve">
+    <value>Aprovador é Obrigatório!</value>
+  </data>
+  <data name="VSApproverType" xml:space="preserve">
+    <value>Tipo de Aprovador é Obrigatório!</value>
+  </data>
+  <data name="VSArea" xml:space="preserve">
+    <value>Área é Obrigatório!</value>
+  </data>
+  <data name="VSBusiness" xml:space="preserve">
+    <value>Business é Obrigatório!</value>
+  </data>
+  <data name="VSCell" xml:space="preserve">
+    <value>Área é Obrigatório!</value>
+  </data>
+  <data name="VSContentFile" xml:space="preserve">
+    <value>Arquivo Digital é Obrigatório!</value>
+  </data>
+  <data name="VSCopyNumber" xml:space="preserve">
+    <value>Nº de Cópias é Obrigatório!</value>
+  </data>
+  <data name="VSDepartment" xml:space="preserve">
+    <value>Departamento é Obrigatório!</value>
+  </data>
+  <data name="VSEC" xml:space="preserve">
+    <value>EC é obrigatório!</value>
+  </data>
+  <data name="VSFlowTemplate" xml:space="preserve">
+    <value>Fluxo é Obrigatório!</value>
+  </data>
+  <data name="VSFormat" xml:space="preserve">
+    <value>Formato é Obrigatório!</value>
+  </data>
+  <data name="VSForwardOptions" xml:space="preserve">
+    <value>Opções de Encaminhamento é Obrigatório!</value>
+  </data>
+  <data name="VSForwardType" xml:space="preserve">
+    <value>Tipo de Encaminhamento é Obrigatório!</value>
+  </data>
+  <data name="VSGroupControl" xml:space="preserve">
+    <value>Grupo de Controle é Obrigatório!</value>
+  </data>
+  <data name="VSGroupControlForward" xml:space="preserve">
+    <value>Grupo de Controle do Encaminhamento é Obrigatório!</value>
+  </data>
+  <data name="VSJustify" xml:space="preserve">
+    <value>Justificativa é Obrigatório!</value>
+  </data>
+  <data name="VSLanguage" xml:space="preserve">
+    <value>Idioma é Obrigatório!</value>
+  </data>
+  <data name="VSLastName" xml:space="preserve">
+    <value>Sobrenome é Obrigatório!</value>
+  </data>
+  <data name="VSLevel" xml:space="preserve">
+    <value>Nível é Obrigatório!</value>
+  </data>
+  <data name="VSLibrary" xml:space="preserve">
+    <value>Biblioteca é Obrigatório!</value>
+  </data>
+  <data name="VSLibraryFileLocation" xml:space="preserve">
+    <value>Local de Arquivo da Biblioteca é Obrigatório!</value>
+  </data>
+  <data name="VSLimitValue" xml:space="preserve">
+    <value>Valor Limite é Obrigatório!</value>
+  </data>
+  <data name="VSLimitValueForward" xml:space="preserve">
+    <value>Valor Limite do Encaminhamento é Obrigatório!</value>
+  </data>
+  <data name="VSLogin" xml:space="preserve">
+    <value>Login é Obrigatório!</value>
+  </data>
+  <data name="VSMainEmail" xml:space="preserve">
+    <value>E-mail Principal é Obrigatório!</value>
+  </data>
+  <data name="VSName" xml:space="preserve">
+    <value>Nome é Obrigatório!</value>
+  </data>
+  <data name="VSNewOrRePrintCopy" xml:space="preserve">
+    <value>Selecione Nova Cópia ou Reimpressão de Cópia</value>
+  </data>
+  <data name="VSNewTask" xml:space="preserve">
+    <value>Nova Tarefa é Obrigatório!</value>
+  </data>
+  <data name="VSNivel" xml:space="preserve">
+    <value>Nível é Obrigatório!</value>
+  </data>
+  <data name="VSObservation" xml:space="preserve">
+    <value>Observação é Obrigatório!</value>
+  </data>
+  <data name="VSOccupation" xml:space="preserve">
+    <value>Cargo é Obrigatório!</value>
+  </data>
+  <data name="VSOccupationForward" xml:space="preserve">
+    <value>Cargo do Encaminhamento é Obrigatório!</value>
+  </data>
+  <data name="VSParticipantType" xml:space="preserve">
+    <value>Tipo de Participante é Obrigatório!</value>
+  </data>
+  <data name="VSParticipantTypeForward" xml:space="preserve">
+    <value>Tipo de Participante do Encaminhamento é Obrigatório!</value>
+  </data>
+  <data name="VSPassword" xml:space="preserve">
+    <value>Senha é Obrigatório!</value>
+  </data>
+  <data name="VSPasswordConfirm" xml:space="preserve">
+    <value>Confirmação de Senha é Obrigatório!</value>
+  </data>
+  <data name="VSPrinter" xml:space="preserve">
+    <value>Impressor de Revisão é Obrigatório!</value>
+  </data>
+  <data name="VSProject" xml:space="preserve">
+    <value>Projeto é Obrigatório!</value>
+  </data>
+  <data name="VSRecipient" xml:space="preserve">
+    <value>Destinatário é Obrigatório!</value>
+  </data>
+  <data name="VSResponsible" xml:space="preserve">
+    <value>Responsável é Obrigatório!</value>
+  </data>
+  <data name="VSResponsibleType" xml:space="preserve">
+    <value>Tipo de Responsável é Obrigatório!</value>
+  </data>
+  <data name="VSReview" xml:space="preserve">
+    <value>Revisão é Obrigatório!</value>
+  </data>
+  <data name="VSRule" xml:space="preserve">
+    <value>Papel é Obrigatório!</value>
+  </data>
+  <data name="VSRuleForward" xml:space="preserve">
+    <value>Papel do Encaminhamento é Obrigatório!</value>
+  </data>
+  <data name="VSSector" xml:space="preserve">
+    <value>Setor é Obrigatório!</value>
+  </data>
+  <data name="VSSequence" xml:space="preserve">
+    <value>Seqüencia é Obrigatório!</value>
+  </data>
+  <data name="VSSignatureFile" xml:space="preserve">
+    <value>Arquivo com Assinatura Digital é Obrigatório!</value>
+  </data>
+  <data name="VSSignaturePassword" xml:space="preserve">
+    <value>Senha da Assinatura Digital é Obrigatória!</value>
+  </data>
+  <data name="VSSignatureValidate" xml:space="preserve">
+    <value>Validade da Assinatura Digital é Obrigatório!</value>
+  </data>
+  <data name="VSSupplierNumber" xml:space="preserve">
+    <value>Nº Fornecedor é Obrigatório!</value>
+  </data>
+  <data name="VSTag" xml:space="preserve">
+    <value>Tag é Obrigatório!</value>
+  </data>
+  <data name="VSTask" xml:space="preserve">
+    <value>Tarefa é Obrigatório!</value>
+  </data>
+  <data name="VSTitle" xml:space="preserve">
+    <value>Título é Obrigatório!</value>
+  </data>
+  <data name="VSType" xml:space="preserve">
+    <value>Tipo é Obrigatório!</value>
+  </data>
+  <data name="VSUser" xml:space="preserve">
+    <value>Usuário é Obrigatório!</value>
+  </data>
+  <data name="VSUserForward" xml:space="preserve">
+    <value>Usuário do Encaminhamento é Obrigatório!</value>
+  </data>
+  <data name="VSValidateDaysToReview" xml:space="preserve">
+    <value>Ciclo de Dias para Revisão é Obrigatório!</value>
+  </data>
+  <data name="VSVersion" xml:space="preserve">
+    <value>Versão é Obrigatório!</value>
+  </data>
+  <data name="VSYear" xml:space="preserve">
+    <value>Ano é Obrigatório!</value>
+  </data>
+  <data name="Weekly" xml:space="preserve">
+    <value>Semanal</value>
+  </data>
+  <data name="WordDocument" xml:space="preserve">
+    <value>Documento do Word</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="WorkFlowData" xml:space="preserve">
+    <value>Dados do Workflow</value>
+  </data>
+  <data name="WorkflowHistory" xml:space="preserve">
+    <value>Histórico do Workflow</value>
+  </data>
+  <data name="VSInitialDateEarlierToday" xml:space="preserve">
+    <value>Direitos de Workflow</value>
+  </data>
+  <data name="WorkflowStart" xml:space="preserve">
+    <value>Iniciar Workflow</value>
+  </data>
+  <data name="WorkflowStartQuestion" xml:space="preserve">
+    <value>Iniciar Workflow!</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="YouHaveDigitallySignedDocument" xml:space="preserve">
+    <value>Você já Assinou Digitalmente este Documento!</value>
+  </data>
+  <data name="VSDocument" xml:space="preserve">
+    <value>Documento é Obrigatório!</value>
+  </data>
+  <data name="LoanDocument" xml:space="preserve">
+    <value>Emprestar Documento</value>
+  </data>
+  <data name="ReserveDocument" xml:space="preserve">
+    <value>Reservar Documento</value>
+  </data>
+  <data name="ClosePrintPreview" xml:space="preserve">
+    <value>Fechar Visualizar Impressão</value>
+  </data>
+  <data name="PathValidateMessage" xml:space="preserve">
+    <value>Não foi possível concluir a operação, certifique-se que o caminho {0} existe na sua máquina!</value>
+  </data>
+  <data name="CannotOpenFile" xml:space="preserve">
+    <value>Não foi possível abrir o arquivo!
+{0}</value>
+  </data>
+  <data name="CannotOpenFileWith2007" xml:space="preserve">
+    <value>Arquivo gerado em uma versão de Office superior, entre em contato com o suporte.</value>
+  </data>
+  <data name="FullLicenseMessage" xml:space="preserve">
+    <value>Não há licença disponível no momento, pois todas estão sendo utilizadas. 
+Somente o acesso a leitura estará disponível.</value>
+  </data>
+  <data name="ActiveTime" xml:space="preserve">
+    <value>Tempo ativo em hh:mm</value>
+  </data>
+  <data name="ActiveUsers" xml:space="preserve">
+    <value>Usuários ativos</value>
+  </data>
+  <data name="LicenseReadOnly" xml:space="preserve">
+    <value>Somente leitura &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="LicenseUsed" xml:space="preserve">
+    <value>Licenças utilizadas &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="LoginDate" xml:space="preserve">
+    <value>Data do login</value>
+  </data>
+  <data name="InvalidLicenseMessage001" xml:space="preserve">
+    <value>Erro 001 - Nenhuma licença ativa foi encontrada!&lt;br&gt;
+Entre em contato com o administrador do sistema.</value>
+  </data>
+  <data name="TypeControl" xml:space="preserve">
+    <value>Tipo de Controle é Obrigatório!</value>
+  </data>
+  <data name="LibrarySharing" xml:space="preserve">
+    <value>Compartilhamento de Biblioteca</value>
+  </data>
+  <data name="NoDocumentLibraryShared" xml:space="preserve">
+    <value>Nenhuma biblioteca compartilhada!</value>
+  </data>
+  <data name="MenuRegisterPop3Mail" xml:space="preserve">
+    <value>E-mail POP3</value>
+  </data>
+  <data name="ModulePop3Mail" xml:space="preserve">
+    <value>E-MAIL POP3</value>
+  </data>
+  <data name="SiteMapPopMail" xml:space="preserve">
+    <value>Documentos por E-mail POP3</value>
+  </data>
+  <data name="SiteMapPopMailRegister" xml:space="preserve">
+    <value>Cadastro de Documentos por E-mail POP3</value>
+  </data>
+  <data name="Table" xml:space="preserve">
+    <value>Tabela</value>
+  </data>
+  <data name="Pop3" xml:space="preserve">
+    <value>POP3</value>
+  </data>
+  <data name="Pop3MailData" xml:space="preserve">
+    <value>Dados do E-mail POP3</value>
+  </data>
+  <data name="VSPop3" xml:space="preserve">
+    <value>POP3 é Obrigatório!</value>
+  </data>
+  <data name="EnableAnyFile" xml:space="preserve">
+    <value>Validar extensão de arquivo?</value>
+  </data>
+  <data name="EnableAnyFileToolTip" xml:space="preserve">
+    <value>Só serão aceitos arquivos com extensão pré-cadastrada</value>
+  </data>
+  <data name="MuduleDynamicReport" xml:space="preserve">
+    <value>RELATÓRIOS</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Padrão</value>
+  </data>
+  <data name="Dynamic" xml:space="preserve">
+    <value>Dinâmico</value>
+  </data>
+  <data name="DataTable" xml:space="preserve">
+    <value>Dados da Tabela</value>
+  </data>
+  <data name="SelectTheTable" xml:space="preserve">
+    <value>Selecione a Tabela</value>
+  </data>
+  <data name="SiteMapDynamicReportRegister" xml:space="preserve">
+    <value>Cadastro de Relatório Dinâmico</value>
+  </data>
+  <data name="VSEmail" xml:space="preserve">
+    <value>E-mail é Obrigatório!</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Carregar</value>
+  </data>
+  <data name="btInactive" xml:space="preserve">
+    <value>Inativar</value>
+  </data>
+  <data name="ExtenderInactivateRegisterConfirm" xml:space="preserve">
+    <value>Tem certeza que deseja inativar o registro selecionado?</value>
+  </data>
+  <data name="AccomplishFlow" xml:space="preserve">
+    <value>Data de Ativação do Fluxo</value>
+  </data>
+  <data name="AreaUser" xml:space="preserve">
+    <value>Area do Usuário</value>
+  </data>
+  <data name="DepartmentUser" xml:space="preserve">
+    <value>Departamento do Usuário</value>
+  </data>
+  <data name="FinishedFlow" xml:space="preserve">
+    <value>Fim do Fluxo</value>
+  </data>
+  <data name="FlowDocument" xml:space="preserve">
+    <value>Fluxo do Documento</value>
+  </data>
+  <data name="ForecastFlow" xml:space="preserve">
+    <value>Data de Previsão do Fluxo</value>
+  </data>
+  <data name="NameFlow" xml:space="preserve">
+    <value>Nome do Fluxo</value>
+  </data>
+  <data name="NameStage" xml:space="preserve">
+    <value>Nome da Etapa</value>
+  </data>
+  <data name="NameTask" xml:space="preserve">
+    <value>Nome da Tarefa</value>
+  </data>
+  <data name="StageFlow" xml:space="preserve">
+    <value>Etapa do Fluxo</value>
+  </data>
+  <data name="StartedFlow" xml:space="preserve">
+    <value>Inicio do Fluxo</value>
+  </data>
+  <data name="TaskStage" xml:space="preserve">
+    <value>Tarefa da Etapa</value>
+  </data>
+  <data name="UserTask" xml:space="preserve">
+    <value>Usuário da Tarefa</value>
+  </data>
+  <data name="btnGenereteReport" xml:space="preserve">
+    <value>Gerar Relatório</value>
+  </data>
+  <data name="WhereArea" xml:space="preserve">
+    <value>Onde Área for igual à:</value>
+  </data>
+  <data name="WhereDepartment" xml:space="preserve">
+    <value>Onde Departamento for igual à:</value>
+  </data>
+  <data name="WhereLibrary" xml:space="preserve">
+    <value>Onde Biblioteca for igual à:</value>
+  </data>
+  <data name="btnClearSelected" xml:space="preserve">
+    <value>Limpar Seleção</value>
+  </data>
+  <data name="OrderInsertDate" xml:space="preserve">
+    <value>Ordernar por Data</value>
+  </data>
+  <data name="OrderTitle" xml:space="preserve">
+    <value>Ordernar por Titulo</value>
+  </data>
+  <data name="StatusDocument" xml:space="preserve">
+    <value>Status do Documento</value>
+  </data>
+  <data name="StatusUser" xml:space="preserve">
+    <value>Status do Usuário</value>
+  </data>
+  <data name="btnRecordReport" xml:space="preserve">
+    <value>Gravar Dados</value>
+  </data>
+  <data name="btnSaveReport" xml:space="preserve">
+    <value>Salvar Relatório</value>
+  </data>
+  <data name="SiteMapDynamicReportCreated" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="btDeleteAll" xml:space="preserve">
+    <value>Excluir Todos os Registros</value>
+  </data>
+  <data name="btDeleteSelected" xml:space="preserve">
+    <value>Excluir Registros Encontrados</value>
+  </data>
+  <data name="Caller" xml:space="preserve">
+    <value>Método</value>
+  </data>
+  <data name="ErrorDate" xml:space="preserve">
+    <value>Data do Erro</value>
+  </data>
+  <data name="ExtenderDeleteAllConfirm" xml:space="preserve">
+    <value>Deseja Excluir Todos os Registros ?</value>
+  </data>
+  <data name="LineNumbers" xml:space="preserve">
+    <value>Nº de linhas</value>
+  </data>
+  <data name="MenuLogApplication" xml:space="preserve">
+    <value>Log de Aplicação</value>
+  </data>
+  <data name="MenuLogEmail" xml:space="preserve">
+    <value>Log de Email</value>
+  </data>
+  <data name="MenuManagementLog" xml:space="preserve">
+    <value>Gestão de Logs</value>
+  </data>
+  <data name="MuduleApplicationLog" xml:space="preserve">
+    <value>LOG DE APLICAÇÃO</value>
+  </data>
+  <data name="OnlyErrors" xml:space="preserve">
+    <value>Somente Errors?</value>
+  </data>
+  <data name="ShipDate" xml:space="preserve">
+    <value>Data de Envio</value>
+  </data>
+  <data name="SiteMapApplicationLog" xml:space="preserve">
+    <value>Log de Aplicação</value>
+  </data>
+  <data name="SiteMapEmailLog" xml:space="preserve">
+    <value>Log de Email</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Corpo</value>
+  </data>
+  <data name="ConfiguredVariables" xml:space="preserve">
+    <value>Variáveis Configuradas</value>
+  </data>
+  <data name="Footer" xml:space="preserve">
+    <value>Rodapé</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Cabeçalho</value>
+  </data>
+  <data name="HideHeaderAndFooter" xml:space="preserve">
+    <value>Esconder Cabeçalho e Rodapé</value>
+  </data>
+  <data name="LoadFields" xml:space="preserve">
+    <value>Carregar Campos</value>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>Variáveis</value>
+  </data>
+  <data name="ViewHeaderAndFooter" xml:space="preserve">
+    <value>Exibir Cabeçalho e Rodapé</value>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>Centro</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Esquerdo</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Direito</value>
+  </data>
+  <data name="MenuReportDynamic" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>MenuReportDynamic</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="AscDesc" xml:space="preserve">
+    <value>Crescente/Decrescente</value>
+  </data>
+  <data name="ActiveReport" xml:space="preserve">
+    <value>Ativar Relatório?</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Visualizar</value>
+  </data>
+  <data name="ReportPublish" xml:space="preserve">
+    <value>Publicar Relatório?</value>
+  </data>
+  <data name="CurrentPage" xml:space="preserve">
+    <value>Página atual</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>Ir</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Ir para</value>
+  </data>
+  <data name="ModuleMaintenanceResponsible" xml:space="preserve">
+    <value>MANUTENÇÃO DE RESPONSÁVEL</value>
+  </data>
+  <data name="UserRule" xml:space="preserve">
+    <value>Direitos de Usuário</value>
+  </data>
+  <data name="ReportData" xml:space="preserve">
+    <value>Dados do Relatório</value>
+  </data>
+  <data name="EditName" xml:space="preserve">
+    <value>Editar Nome</value>
+  </data>
+  <data name="SelectTheRecordFieldSelected" xml:space="preserve">
+    <value>Selecione 1 registro de "Campo Selecionados" e preencha o nome desejado no campo acima.</value>
+  </data>
+  <data name="InsertLogin" xml:space="preserve">
+    <value>Digite seu login...</value>
+  </data>
+  <data name="InsertPassword" xml:space="preserve">
+    <value>Digite sua senha...</value>
+  </data>
+  <data name="VSUserName" xml:space="preserve">
+    <value>Login é Obrigatório!</value>
+  </data>
+  <data name="VSPasswordNew" xml:space="preserve">
+    <value>Nova Senha é Obrigatória</value>
+  </data>
+  <data name="InsertNewConfirmPassword" xml:space="preserve">
+    <value>Digite a confirmação de sua nova senha...</value>
+  </data>
+  <data name="InsertNewPassword" xml:space="preserve">
+    <value>Digite sua nova senha...</value>
+  </data>
+  <data name="InsertMainEmail" xml:space="preserve">
+    <value>Digite seu e-mail principal...</value>
+  </data>
+  <data name="Logoff" xml:space="preserve">
+    <value>Encerrando sessão...</value>
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>Primeira</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Última</value>
+  </data>
+  <data name="GroupUserAssociateNotFound" xml:space="preserve">
+    <value>Não existe nenhum usuário associado para o grupo: </value>
+  </data>
+  <data name="GroupUserDelegateNotFound" xml:space="preserve">
+    <value>Não existe nenhum usuário delegado para o grupo: </value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>Formulário</value>
+  </data>
+  <data name="VSView" xml:space="preserve">
+    <value>View é Obrigtório!</value>
+  </data>
+  <data name="Reloaded" xml:space="preserve">
+    <value>Reiniciado</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Para Baixo</value>
+  </data>
+  <data name="FileInfoNew" xml:space="preserve">
+    <value>Novo Arquivo Digital</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Para Cima</value>
+  </data>
+  <data name="Action_ContratoCancelado" xml:space="preserve">
+    <value>CONTRATO CANCELADO</value>
+  </data>
+  <data name="Action_ContratoSuspenso" xml:space="preserve">
+    <value>CONTRATO SUSPENSO</value>
+  </data>
+  <data name="Action_Encerrado" xml:space="preserve">
+    <value>ENCERRADO</value>
+  </data>
+  <data name="btAditarContrato" xml:space="preserve">
+    <value>Aditar Contrato</value>
+  </data>
+  <data name="btCancelarContrato" xml:space="preserve">
+    <value>Cancelar Contrato</value>
+  </data>
+  <data name="btEncerrarContrato" xml:space="preserve">
+    <value>Encerrar Contrato</value>
+  </data>
+  <data name="btRestaurarContrato" xml:space="preserve">
+    <value>Restaurar Contrato</value>
+  </data>
+  <data name="btSuspenderContrato" xml:space="preserve">
+    <value>Suspender Contrato</value>
+  </data>
+  <data name="Aditivo" xml:space="preserve">
+    <value>Aditivo</value>
+  </data>
+  <data name="TermoEncerramento" xml:space="preserve">
+    <value>Termo de Encerramento</value>
+  </data>
+  <data name="AdditiveCode" xml:space="preserve">
+    <value>Código de Aditivo</value>
+  </data>
+  <data name="ClosingCode" xml:space="preserve">
+    <value>Código de Encerramento</value>
+  </data>
+  <data name="ContractNumber" xml:space="preserve">
+    <value>Número do Contrato</value>
+  </data>
+  <data name="VSContractNumber" xml:space="preserve">
+    <value>Número do Contrato é Obrigatório!</value>
+  </data>
+  <data name="CodigoADTE" xml:space="preserve">
+    <value>Código&lt;br&gt;AD / TE</value>
+  </data>
+  <data name="ddlEmissionDate" xml:space="preserve">
+    <value>DATA DE EMISSÃO</value>
+  </data>
+  <data name="ddlExpiresDate" xml:space="preserve">
+    <value>DATA DE VENCIMENTO</value>
+  </data>
+  <data name="ddlReceiptDate" xml:space="preserve">
+    <value>DATA DE RECEBIMENTO</value>
+  </data>
+  <data name="DocumentosObrigatorios" xml:space="preserve">
+    <value>Anexos Obrigatórios</value>
+  </data>
+  <data name="TypeDocumentAssociate" xml:space="preserve">
+    <value>Tipo de Documento Associado</value>
+  </data>
+  <data name="TypeDocumentAvailable" xml:space="preserve">
+    <value>Tipo de Documento Disponível</value>
+  </data>
+  <data name="btInsertAttachment" xml:space="preserve">
+    <value>Incluir Anexo</value>
+  </data>
+  <data name="VSAlias" xml:space="preserve">
+    <value>Sigla é Obrigatório!</value>
+  </data>
+  <data name="Digitalizar" xml:space="preserve">
+    <value>Digitalizar</value>
+  </data>
+  <data name="ListaDocObrigatorio" xml:space="preserve">
+    <value>O fluxo não pode ser efetivado, pois os documentos abaixo precisam ser anexados:\n\n{0}</value>
+  </data>
+  <data name="MenuRegisterProcesso" xml:space="preserve">
+    <value>Processos</value>
+  </data>
+  <data name="Processo" xml:space="preserve">
+    <value>Processo</value>
+  </data>
+  <data name="SiteMapProcesso" xml:space="preserve">
+    <value>Processos</value>
+  </data>
+  <data name="SiteMapProcessoCadastro" xml:space="preserve">
+    <value>Cadastro de Processo</value>
+  </data>
+  <data name="Documental" xml:space="preserve">
+    <value>Documental</value>
+  </data>
+  <data name="LibraryProcessValidateMessage" xml:space="preserve">
+    <value>Para Tipo de Fluxo Processo, é permitido selecionar apenas uma biblioteca!</value>
+  </data>
+  <data name="TipoFluxo" xml:space="preserve">
+    <value>Tipo de Fluxo</value>
+  </data>
+  <data name="VSProcesso" xml:space="preserve">
+    <value>Processo é Obrigatório!</value>
+  </data>
+  <data name="Formulario" xml:space="preserve">
+    <value>Formulário</value>
+  </data>
+  <data name="MenuFormularioDinamico" xml:space="preserve">
+    <value>Formulários</value>
+  </data>
+  <data name="MuduleFormularioDinamico" xml:space="preserve">
+    <value>FORMULÁRIOS</value>
+  </data>
+  <data name="SiteMapFormularioDinamico" xml:space="preserve">
+    <value>Formulários</value>
+  </data>
+  <data name="SiteMapFormularioDinamicoData" xml:space="preserve">
+    <value>Dados do Formulário</value>
+  </data>
+  <data name="SiteMapFormularioDinamicoCadastro" xml:space="preserve">
+    <value>Cadastro de Formulário</value>
+  </data>
+  <data name="btCriar" xml:space="preserve">
+    <value>Criar</value>
+  </data>
+  <data name="NomeFormulario" xml:space="preserve">
+    <value>Nome do Formulário</value>
+  </data>
+  <data name="NometabelaBD" xml:space="preserve">
+    <value>Nome da Tabela No Banco de Dados</value>
+  </data>
+  <data name="Gerenciar" xml:space="preserve">
+    <value>Gerenciar</value>
+  </data>
+  <data name="Propriedades" xml:space="preserve">
+    <value>Propriedades</value>
+  </data>
+  <data name="SiteMapFormularioDinamicoGerenciar" xml:space="preserve">
+    <value>Gerenciar</value>
+  </data>
+  <data name="ToolBox" xml:space="preserve">
+    <value>Caixa de Ferramentas</value>
+  </data>
+  <data name="DadosFormulario" xml:space="preserve">
+    <value>Dados do Formulário</value>
+  </data>
+  <data name="VSObjetoObrigatorio" xml:space="preserve">
+    <value>{0} é Obrigatório!</value>
+  </data>
+  <data name="Aplicar" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="Campo" xml:space="preserve">
+    <value>Campo</value>
+  </data>
+  <data name="Conectado" xml:space="preserve">
+    <value>Conectado</value>
+  </data>
+  <data name="Conectar" xml:space="preserve">
+    <value>Conectar</value>
+  </data>
+  <data name="FonteDeDados" xml:space="preserve">
+    <value>Fonte de Dados</value>
+  </data>
+  <data name="Integracao" xml:space="preserve">
+    <value>Integração</value>
+  </data>
+  <data name="NomeBancoDeDados" xml:space="preserve">
+    <value>Nome do Banco de Dados</value>
+  </data>
+  <data name="NomeDoServidor" xml:space="preserve">
+    <value>Nome do Servidor</value>
+  </data>
+  <data name="Tabela" xml:space="preserve">
+    <value>Tabela</value>
+  </data>
+  <data name="FalhaAutenticacaoIntegracao" xml:space="preserve">
+    <value>Não foi possível conectar a {0}. Falha na autenticação para {1}!</value>
+  </data>
+  <data name="CaixaDeSelecao" xml:space="preserve">
+    <value>Caixa de Seleção</value>
+  </data>
+  <data name="CaixaDeTexto" xml:space="preserve">
+    <value>Caixa de Texto</value>
+  </data>
+  <data name="CaixaDeTextoMultilinha" xml:space="preserve">
+    <value>Caixa de Texto Multilinha</value>
+  </data>
+  <data name="Calendario" xml:space="preserve">
+    <value>Calendário</value>
+  </data>
+  <data name="Indice" xml:space="preserve">
+    <value>Índice</value>
+  </data>
+  <data name="Itens" xml:space="preserve">
+    <value>Itens</value>
+  </data>
+  <data name="Largura" xml:space="preserve">
+    <value>Largura</value>
+  </data>
+  <data name="Layout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="Linhas" xml:space="preserve">
+    <value>Linhas</value>
+  </data>
+  <data name="Lista" xml:space="preserve">
+    <value>Lista</value>
+  </data>
+  <data name="Moeda" xml:space="preserve">
+    <value>Moeda</value>
+  </data>
+  <data name="Numero" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="Requerido" xml:space="preserve">
+    <value>Requerido</value>
+  </data>
+  <data name="TamanhoMaximo" xml:space="preserve">
+    <value>Tamanho Máximo</value>
+  </data>
+  <data name="TipoDados" xml:space="preserve">
+    <value>Tipo Dados</value>
+  </data>
+  <data name="TipoObjeto" xml:space="preserve">
+    <value>Tipo Objeto</value>
+  </data>
+  <data name="Visivel" xml:space="preserve">
+    <value>Visível</value>
+  </data>
+  <data name="ExpandirMenu" xml:space="preserve">
+    <value>Expandir o menu</value>
+  </data>
+  <data name="OcultarMenu" xml:space="preserve">
+    <value>Ocultar o menu</value>
+  </data>
+  <data name="VSExpirationDate" xml:space="preserve">
+    <value>Data de Expiração é Obrigatório!</value>
+  </data>
+  <data name="VSExtension" xml:space="preserve">
+    <value>Extensão é Obrigatório!</value>
+  </data>
+  <data name="Tema" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="VSSubject" xml:space="preserve">
+    <value>Assunto é Obrigatório!</value>
+  </data>
+  <data name="VSEmissionDate" xml:space="preserve">
+    <value>Data de Emissão é Obrigatório!</value>
+  </data>
+  <data name="VSFonteDeDados" xml:space="preserve">
+    <value>Fonte de Dados é Obrigatório!</value>
+  </data>
+  <data name="VSNomeBancoDeDados" xml:space="preserve">
+    <value>Banco de Dados é Obrigatorio!</value>
+  </data>
+  <data name="VSNomeDoServidor" xml:space="preserve">
+    <value>Nome do Servidor é Obrigatório!</value>
+  </data>
+  <data name="VSCode" xml:space="preserve">
+    <value>Código é Obrigatório!</value>
+  </data>
+  <data name="VSParameterType" xml:space="preserve">
+    <value>Tipo de Parâmetro é Obrigatório!</value>
+  </data>
+  <data name="Novo" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="Ate" xml:space="preserve">
+    <value>até</value>
+  </data>
+  <data name="VSLoanTo" xml:space="preserve">
+    <value>Emprestar para é Obrigatório!</value>
+  </data>
+  <data name="VSReturnDate" xml:space="preserve">
+    <value>Data de Devolução é Obrigatório!</value>
+  </data>
+  <data name="ExtendLoan" xml:space="preserve">
+    <value>Prorrogar Empréstimo</value>
+  </data>
+  <data name="Extend" xml:space="preserve">
+    <value>Prorrogar</value>
+  </data>
+  <data name="ToExtend" xml:space="preserve">
+    <value>Prorrogar para</value>
+  </data>
+  <data name="VSCommentary" xml:space="preserve">
+    <value>Comentário é Obrigatório!</value>
+  </data>
+  <data name="VSJustifyType" xml:space="preserve">
+    <value>Tipo de Justificativa é Obrigatório!</value>
+  </data>
+  <data name="VSLimitDate" xml:space="preserve">
+    <value>Data Limite é Obrigatório!</value>
+  </data>
+  <data name="VSReviewPrinter" xml:space="preserve">
+    <value>Impressor da Revisão é Obrigatório!</value>
+  </data>
+  <data name="NomeCampo" xml:space="preserve">
+    <value>Nome do Campo</value>
+  </data>
+  <data name="BemVindo" xml:space="preserve">
+    <value>Bem-vindo ao NetDocs</value>
+  </data>
+  <data name="EffectiveImmediately" xml:space="preserve">
+    <value>Efetivação Imediata</value>
+  </data>
+  <data name="Wait" xml:space="preserve">
+    <value>Aguarde</value>
+  </data>
+  <data name="VSFormulario" xml:space="preserve">
+    <value>Formulário é Obrigatório!</value>
+  </data>
+  <data name="EmCriacao" xml:space="preserve">
+    <value>Em Criação</value>
+  </data>
+  <data name="Publicado" xml:space="preserve">
+    <value>Publicado</value>
+  </data>
+  <data name="RecordFoundPage" xml:space="preserve">
+    <value>&lt;b&gt;{0}&lt;/b&gt; Registro encontrado em &lt;b&gt;{1}&lt;/b&gt; página.</value>
+  </data>
+  <data name="RecordsFoundPage" xml:space="preserve">
+    <value>&lt;b&gt;{0}&lt;/b&gt; Registros encontrados em &lt;b&gt;{1}&lt;/b&gt; página.</value>
+  </data>
+  <data name="RecordsFoundPages" xml:space="preserve">
+    <value>&lt;b&gt;{0}&lt;/b&gt; Registros encontrados em &lt;b&gt;{1}&lt;/b&gt; páginas.</value>
+  </data>
+  <data name="Normativo" xml:space="preserve">
+    <value>NORMATIVO</value>
+  </data>
+  <data name="Padrao" xml:space="preserve">
+    <value>PADRÃO</value>
+  </data>
+  <data name="VSNomeFormulario" xml:space="preserve">
+    <value>Nome do Formulário é Obrigatório</value>
+  </data>
+  <data name="VSNomeTabelaBD" xml:space="preserve">
+    <value>Nome da Tabela No Banco de Dados é Obrigatório!</value>
+  </data>
+  <data name="UsuarioDestino" xml:space="preserve">
+    <value>Usuário Destino</value>
+  </data>
+  <data name="UsuarioOrigem" xml:space="preserve">
+    <value>Usuário Origem</value>
+  </data>
+  <data name="VSUsuarioDestino" xml:space="preserve">
+    <value>Usuário Destino é Obrigatório!</value>
+  </data>
+  <data name="VSUsuarioOrigem" xml:space="preserve">
+    <value>Usuário Origem é Obrigatório!</value>
+  </data>
+  <data name="VSCopyControlledPrinter" xml:space="preserve">
+    <value>Impressor é Obrigatório!</value>
+  </data>
+  <data name="ExistsRegisterDefault" xml:space="preserve">
+    <value>O registro &lt;b&gt;{0}&lt;/b&gt; já existe cadastrado!</value>
+  </data>
+  <data name="NaoPublicado" xml:space="preserve">
+    <value>Não Publicado</value>
+  </data>
+  <data name="ErroAutoLogin" xml:space="preserve">
+    <value>Autenticação automática para &lt;b&gt;{0}&lt;/b&gt; negada!</value>
+  </data>
+  <data name="LeituraObrigatoria" xml:space="preserve">
+    <value>Para liberar esta função, é necessário abrir o arquivo!</value>
+  </data>
+  <data name="Ajustes" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="DefinirFluxoPadrao" xml:space="preserve">
+    <value>Definir Fluxo Padrão</value>
+  </data>
+  <data name="DefinirProcesso" xml:space="preserve">
+    <value>Definir Processo</value>
+  </data>
+  <data name="SiteMapProcessoData" xml:space="preserve">
+    <value>Dados do Processo</value>
+  </data>
+  <data name="Opcoes" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="MenuDocuments" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="GerarPDF" xml:space="preserve">
+    <value>Gerar PDF</value>
+  </data>
+  <data name="ConfigurarIndicador" xml:space="preserve">
+    <value>Configurações do Indicador</value>
+  </data>
+  <data name="GerarIndicador" xml:space="preserve">
+    <value>Gerar Indicador</value>
+  </data>
+  <data name="DefinirModulo" xml:space="preserve">
+    <value>Definir Módulo</value>
+  </data>
+  <data name="MenuRegisterModule" xml:space="preserve">
+    <value>Módulos</value>
+  </data>
+  <data name="ModuleModule" xml:space="preserve">
+    <value>MÓDULOS</value>
+  </data>
+  <data name="SiteMapModulo" xml:space="preserve">
+    <value>Módulos</value>
+  </data>
+  <data name="SiteMapModuloCadastro" xml:space="preserve">
+    <value>Cadastro de Módulo</value>
+  </data>
+  <data name="SiteMapModuloData" xml:space="preserve">
+    <value>Dados do Módulo</value>
+  </data>
+  <data name="SiteMapModuloDinamico" xml:space="preserve">
+    <value>Módulos Dinâmicos</value>
+  </data>
+  <data name="SiteMapModuloDinamicoCadastro" xml:space="preserve">
+    <value>Cadastro de Módulo Dinâmico</value>
+  </data>
+  <data name="SiteMapModuloDinamicoData" xml:space="preserve">
+    <value>Dados do Módulo Dinâmico</value>
+  </data>
+  <data name="LicencaExpiraEm" xml:space="preserve">
+    <value>A licença para uso do sistema expira em {0}.</value>
+  </data>
+  <data name="LicencaValidaAte" xml:space="preserve">
+    <value>Válido até {0}</value>
+  </data>
+  <data name="LicencaExpirouEm" xml:space="preserve">
+    <value>A licença para uso do sistema expirou em {0}.</value>
+  </data>
+  <data name="FiltrarPor" xml:space="preserve">
+    <value>Filtrar Por</value>
+  </data>
+  <data name="ValorFiltro" xml:space="preserve">
+    <value>Valor Filtro</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>PÁGINA</value>
+  </data>
+  <data name="CriteriumReport" xml:space="preserve">
+    <value>CRITÉRIO:</value>
+  </data>
+  <data name="NumberDataFoundReport" xml:space="preserve">
+    <value>NENHUM REGISTRO ENCONTRADO PARA ESSE RELATÓRIO!</value>
+  </data>
+  <data name="VSCriterio" xml:space="preserve">
+    <value>Critério é Obrigatório!</value>
+  </data>
+  <data name="Bpm" xml:space="preserve">
+    <value>BPM</value>
+  </data>
+  <data name="Estruturado" xml:space="preserve">
+    <value>Estruturado</value>
+  </data>
+  <data name="FluxoPadrao" xml:space="preserve">
+    <value>Fluxo Padrão</value>
+  </data>
+  <data name="VSDisapproveTask" xml:space="preserve">
+    <value>A configuração de reprovação, deve ser apontada para uma tarefa anterior e outra posterior!</value>
+  </data>
+  <data name="VSDisapproveTaskRule" xml:space="preserve">
+    <value>O Papel selecionado na Tarefa &lt;b&gt;{0}&lt;/b&gt; não permite o direito a reprovação!</value>
+  </data>
+  <data name="VSEndFlowTask" xml:space="preserve">
+    <value>Inclua o Objeto de Finalizar Fluxo e Faça sua Ligação!</value>
+  </data>
+  <data name="VSEndFlowTaskRule" xml:space="preserve">
+    <value>A Última Tarefa deve ter um Papel com direito de Efetivar Fluxo!</value>
+  </data>
+  <data name="VSEndSequence" xml:space="preserve">
+    <value>A Ligação entre o Objeto de Finalização e a Tarefa, deve ser feita!</value>
+  </data>
+  <data name="VSFlowTemplateName" xml:space="preserve">
+    <value>Nome do Fluxo é Obrigatório!</value>
+  </data>
+  <data name="VSForwardTask" xml:space="preserve">
+    <value>Verifique as configurações de encaminhamento da Tarefa &lt;b&gt;{0}&lt;/b&gt; !</value>
+  </data>
+  <data name="VSForwardTaskRule" xml:space="preserve">
+    <value>O Papel selecionado na Tarefa &lt;b&gt;{0}&lt;/b&gt; não permite o direito a encaminhamento!</value>
+  </data>
+  <data name="VSStageTemplate" xml:space="preserve">
+    <value>Etapa é Obrigatório!</value>
+  </data>
+  <data name="VSStageTemplateName" xml:space="preserve">
+    <value>Nome da Etapa é Obrigatório!</value>
+  </data>
+  <data name="VSStartFlowTask" xml:space="preserve">
+    <value>Inclua o Objeto de Inciar Fluxo e Faça sua Ligação!</value>
+  </data>
+  <data name="VSStartFlowTaskRule" xml:space="preserve">
+    <value>A Primeira Tarefa deve ter um Papel com direito de Iniciar Fluxo!</value>
+  </data>
+  <data name="VSStartSequence" xml:space="preserve">
+    <value>A Ligação entre o Objeto de Inicio e a Tarefa, deve ser feita!</value>
+  </data>
+  <data name="VSTaskDetail" xml:space="preserve">
+    <value>Preencha os Detalhes da Tarefa &lt;b&gt;{0}&lt;/b&gt; !</value>
+  </data>
+  <data name="VSTasksDetail" xml:space="preserve">
+    <value>Preencha os Detalhes de Tarefa!</value>
+  </data>
+  <data name="VSTaskTemplate" xml:space="preserve">
+    <value>Tarefa é Obrigatório!</value>
+  </data>
+  <data name="VSTaskTemplateName" xml:space="preserve">
+    <value>Nome da Tarefa é Obrigatório!</value>
+  </data>
+  <data name="DeleteItem" xml:space="preserve">
+    <value>Excluir Item</value>
+  </data>
+  <data name="AxisX" xml:space="preserve">
+    <value>Eixo X</value>
+  </data>
+  <data name="AxisY" xml:space="preserve">
+    <value>Eixo Y</value>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>Colunas</value>
+  </data>
+  <data name="Doughnut" xml:space="preserve">
+    <value>Rosca</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Linhas</value>
+  </data>
+  <data name="MenuRegisterChart" xml:space="preserve">
+    <value>Indicadores</value>
+  </data>
+  <data name="Pie" xml:space="preserve">
+    <value>Pizza</value>
+  </data>
+  <data name="PolarArea" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="Radar" xml:space="preserve">
+    <value>Radar</value>
+  </data>
+  <data name="SiteMapCharts" xml:space="preserve">
+    <value>Indicadores</value>
+  </data>
+  <data name="SiteMapChartsData" xml:space="preserve">
+    <value>Dados do Indicador</value>
+  </data>
+  <data name="SiteMapChartsRegister" xml:space="preserve">
+    <value>Cadastro de Indicador</value>
+  </data>
+  <data name="VSEixoX" xml:space="preserve">
+    <value>Eixo X é obrigatório!</value>
+  </data>
+  <data name="VSFluxoErroConfig" xml:space="preserve">
+    <value>Há um Problema na Configuração do Fluxo !</value>
+  </data>
+  <data name="VSDateBegin" xml:space="preserve">
+    <value>Data Inicio Obrigatória!</value>
+  </data>
+  <data name="VSDateEnd" xml:space="preserve">
+    <value>Data Final Obrigatória!</value>
+  </data>
+  <data name="VSDisapproveTaskConfig" xml:space="preserve">
+    <value>Configuração de Reprovação Inválida !</value>
+  </data>
+  <data name="Bars" xml:space="preserve">
+    <value>Barras</value>
+  </data>
+  <data name="PreencherFormulario" xml:space="preserve">
+    <value>Preencher Formulário</value>
+  </data>
+  <data name="NextRun" xml:space="preserve">
+    <value>Próxima Execução</value>
+  </data>
+  <data name="ServicePDFCreator" xml:space="preserve">
+    <value>Complementa um arquivo PDF com dados de formulários dinâmicos preenchidos na tarefa durante o workflow.</value>
+  </data>
+  <data name="MenuManagementToolsDashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="MenuRegisterDashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="ExportToCsv" xml:space="preserve">
+    <value>Exportar EXCEL</value>
+  </data>
+  <data name="ExportToPdf" xml:space="preserve">
+    <value>Exportar PDF</value>
+  </data>
+  <data name="SiteMapDashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="SiteMapDashboardData" xml:space="preserve">
+    <value>Dados do Dashboard</value>
+  </data>
+  <data name="SiteMapDashboardRegister" xml:space="preserve">
+    <value>Cadastro de Dashboard</value>
+  </data>
+  <data name="DateRequired" xml:space="preserve">
+    <value>Campo data é obrigatório!</value>
+  </data>
+  <data name="PreencherDadosFormulario" xml:space="preserve">
+    <value>Para concluir a tarefa é necessário preencher os dados do formulário!</value>
+  </data>
+  <data name="ServiceSentMail" xml:space="preserve">
+    <value>Envia e-mail baseado em uma lista pré-formatada e registrada na base de dados.</value>
+  </data>
+  <data name="IndicadoresAssociate" xml:space="preserve">
+    <value>Indicadores Associados</value>
+  </data>
+  <data name="IndicadoresAvailable" xml:space="preserve">
+    <value>Indicadores Disponíveis</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Dashboards</value>
+  </data>
+  <data name="OfficeViewerFalhaConexao" xml:space="preserve">
+    <value>Não foi possível conectar no NetDocs Office Viewer, verifique se está aberto e conectado !</value>
+  </data>
+  <data name="DadosComplementares" xml:space="preserve">
+    <value>Dados Complementares</value>
+  </data>
+  <data name="Processando" xml:space="preserve">
+    <value>Processando</value>
+  </data>
+  <data name="ServiceNotifyActiveDocument" xml:space="preserve">
+    <value>Avisa usuários sobre novo documento ativo.</value>
+  </data>
+  <data name="MergeSucesso" xml:space="preserve">
+    <value>Merge Efetuado com Sucesso!</value>
+  </data>
+  <data name="IconHelpGeneralSearchMessageFullTextCatalog" xml:space="preserve">
+    <value>Pesquisa por N° Net, Título, Objeto e Conteúdo do Arquivo</value>
+  </data>
+  <data name="CriterionAssociate" xml:space="preserve">
+    <value>Critérios Associados</value>
+  </data>
+  <data name="CriterionAvailable" xml:space="preserve">
+    <value>Critérios Disponiveis</value>
+  </data>
+  <data name="FieldAssociate" xml:space="preserve">
+    <value>Campos Associados</value>
+  </data>
+  <data name="FieldAvailable" xml:space="preserve">
+    <value>Campos Disponiveis</value>
+  </data>
+  <data name="BlackThemes" xml:space="preserve">
+    <value>Black Themes</value>
+  </data>
+  <data name="chalkThemes" xml:space="preserve">
+    <value>Chalk Themes</value>
+  </data>
+  <data name="DarkThemes" xml:space="preserve">
+    <value>Dark Themes</value>
+  </data>
+  <data name="DefaultThemes" xml:space="preserve">
+    <value>Default Themes</value>
+  </data>
+  <data name="LightThemes" xml:space="preserve">
+    <value>Light Themes</value>
+  </data>
+  <data name="PatternsThemes" xml:space="preserve">
+    <value>Patterns Themes</value>
+  </data>
+  <data name="MenuInsertAtualizacaoPortais" xml:space="preserve">
+    <value>01.1-ATUALIZAÇÃO DE PORTAIS</value>
+  </data>
+  <data name="NovoProcesso" xml:space="preserve">
+    <value>Novo Processo</value>
+  </data>
+  <data name="GoToTask" xml:space="preserve">
+    <value>Ir para Tarefa</value>
+  </data>
+  <data name="CotacaoNaoExiste" xml:space="preserve">
+    <value>Nº Cotação &lt;b&gt;{0}&lt;/b&gt; não existe!</value>
+  </data>
+  <data name="QuantidadeProdutosExcedeu" xml:space="preserve">
+    <value>Não é possível incluir o registro!&lt;br&gt;Motivo: Quantidade de produto excede o informado no processo de credenciamento.</value>
+  </data>
+  <data name="Cotacao" xml:space="preserve">
+    <value>Nº Cotação</value>
+  </data>
+  <data name="Annex" xml:space="preserve">
+    <value>Anexo</value>
+  </data>
+  <data name="MenuInboxPendingDisapprovedTasks" xml:space="preserve">
+    <value>Tarefas Pendentes Reprovadas</value>
+  </data>
+  <data name="InboxPendingDisapprovedTasks" xml:space="preserve">
+    <value>Tarefas Pendentes Reprovadas</value>
+  </data>
+  <data name="Chamado" xml:space="preserve">
+    <value>Chamado</value>
+  </data>
+  <data name="NovoChamado" xml:space="preserve">
+    <value>Novo Chamado</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Esqueci minha senha</value>
+  </data>
+  <data name="ForgotPasswordRecover" xml:space="preserve">
+    <value>Clique aqui para recuperar sua senha!</value>
+  </data>
+  <data name="MenuInsertDocumentosLicitacao" xml:space="preserve">
+    <value>20.1-DOCUMENTOS LICITAÇÃO</value>
+  </data>
+  <data name="April" xml:space="preserve">
+    <value>Abril</value>
+  </data>
+  <data name="August" xml:space="preserve">
+    <value>Agosto</value>
+  </data>
+  <data name="DaysWithComma" xml:space="preserve">
+    <value>Dia(s) (Separar por vírgulas)</value>
+  </data>
+  <data name="December" xml:space="preserve">
+    <value>Dezembro</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Data Fim</value>
+  </data>
+  <data name="February" xml:space="preserve">
+    <value>Fevereiro</value>
+  </data>
+  <data name="FlowAutoStart" xml:space="preserve">
+    <value>Iniciar Fluxo Automaticamente</value>
+  </data>
+  <data name="InvalidHour" xml:space="preserve">
+    <value>Hora inválida!</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>Janeiro</value>
+  </data>
+  <data name="July" xml:space="preserve">
+    <value>Julho</value>
+  </data>
+  <data name="June" xml:space="preserve">
+    <value>Junho</value>
+  </data>
+  <data name="March" xml:space="preserve">
+    <value>Março</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>Maio</value>
+  </data>
+  <data name="November" xml:space="preserve">
+    <value>Novembro</value>
+  </data>
+  <data name="October" xml:space="preserve">
+    <value>Outubro</value>
+  </data>
+  <data name="Repeat" xml:space="preserve">
+    <value>Repetir</value>
+  </data>
+  <data name="SelectDays" xml:space="preserve">
+    <value>Selecione os Dias</value>
+  </data>
+  <data name="SelectMonth" xml:space="preserve">
+    <value>Selecione o Mês</value>
+  </data>
+  <data name="SelectMonths" xml:space="preserve">
+    <value>Selecione os Meses</value>
+  </data>
+  <data name="September" xml:space="preserve">
+    <value>Setembro</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Horário</value>
+  </data>
+  <data name="VSBeginDate" xml:space="preserve">
+    <value>Data Início é Obrigatório!</value>
+  </data>
+  <data name="VSDay" xml:space="preserve">
+    <value>Dia é Obrigatório!</value>
+  </data>
+  <data name="VSFinalDateEarlierInitialDate" xml:space="preserve">
+    <value>A data fim deve ser maior que a data de início!</value>
+  </data>
+  <data name="VSMonthDay" xml:space="preserve">
+    <value>O mês de {0} não possui o dia {1}!</value>
+  </data>
+  <data name="VSRepeat" xml:space="preserve">
+    <value>Repetir é Obrigatório!</value>
+  </data>
+  <data name="VSSelectOneMonthYear" xml:space="preserve">
+    <value>Selecione ao menos um mês do ano!</value>
+  </data>
+  <data name="VSSelectOneWeekDay" xml:space="preserve">
+    <value>Selecione ao menos um dia da semana!</value>
+  </data>
+  <data name="VSTime" xml:space="preserve">
+    <value>Horário é Obrigatório!</value>
+  </data>
+  <data name="WorkflowRules" xml:space="preserve">
+    <value>Direitos de Workflow</value>
+  </data>
+  <data name="AllDays" xml:space="preserve">
+    <value>Todos os Dias</value>
+  </data>
+  <data name="Yearly" xml:space="preserve">
+    <value>Anualmente</value>
+  </data>
+  <data name="WorkingDay" xml:space="preserve">
+    <value>Dia Útil</value>
+  </data>
+  <data name="WorkingDays" xml:space="preserve">
+    <value>Dias Úteis</value>
+  </data>
+  <data name="WorkingDaysMinutes" xml:space="preserve">
+    <value>Dias/Minutos Úteis?</value>
+  </data>
+  <data name="WorkingMinute" xml:space="preserve">
+    <value>Minuto Útil</value>
+  </data>
+  <data name="WorkingMinutes" xml:space="preserve">
+    <value>Minutos Úteis</value>
+  </data>
+  <data name="ServiceAutomateFlow" xml:space="preserve">
+    <value>Inicia automaticamente os fluxos parametrizados</value>
+  </data>
+  <data name="Anexo" xml:space="preserve">
+    <value>Anexo</value>
+  </data>
+  <data name="LibraryInconformidade" xml:space="preserve">
+    <value>Processos / Operações</value>
+  </data>
+  <data name="VSLibraryFileLocationInconformidades" xml:space="preserve">
+    <value>Subprocessos</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TypesAssociate" xml:space="preserve">
+    <value>Tipos Associados</value>
+  </data>
+  <data name="TypesAvailable" xml:space="preserve">
+    <value>TiposDisponíveis</value>
+  </data>
+  <data name="MenuInconformidades" xml:space="preserve">
+    <value>Inconformidades</value>
+  </data>
+  <data name="ModuleInconformidade" xml:space="preserve">
+    <value>INCONFORMIDADE</value>
+  </data>
+  <data name="MenuInsertChamado" xml:space="preserve">
+    <value>Inconformidades</value>
+  </data>
+  <data name="MenuPesquisaChamado" xml:space="preserve">
+    <value>Pesquisa Chamados</value>
+  </data>
+  <data name="SendEmail" xml:space="preserve">
+    <value>Enviar E-mail</value>
+  </data>
+  <data name="VSEmailNaoCadastrado" xml:space="preserve">
+    <value>Um ou mais e-mails não foram encontrados no sistema</value>
+  </data>
+  <data name="Destinatario" xml:space="preserve">
+    <value>Destinatário(s)</value>
+  </data>
+  <data name="EmailSentToList" xml:space="preserve">
+    <value>O e-mail está na lista de envios</value>
+  </data>
+  <data name="EditMessageTemplate" xml:space="preserve">
+    <value>ATENÇÃO, SE EXISTIR MAPEAMENTO DE CAMPOS PARA ESSE TEMPLATE E O MESMO FOR EDITADO, O MAPEAMENTO DEVERÁ SER REFEITO.</value>
+  </data>
+  <data name="TemplatePDF" xml:space="preserve">
+    <value>TEMPLATE PDF</value>
+  </data>
+  <data name="MenuRegisterTemplatePDF" xml:space="preserve">
+    <value>Template PDF</value>
+  </data>
+  <data name="VSTemplate" xml:space="preserve">
+    <value>Template é Obrigatório!</value>
+  </data>
+  <data name="SiteMapTemplatePDF" xml:space="preserve">
+    <value>Template PDF</value>
+  </data>
+  <data name="SiteMapTemplatePDFCadastro" xml:space="preserve">
+    <value>Cadastro de Template PDF</value>
+  </data>
+  <data name="SiteMapTemplatePDFData" xml:space="preserve">
+    <value>Dados de Template PDF</value>
+  </data>
+  <data name="MenuView" xml:space="preserve">
+    <value>Visão</value>
+  </data>
+  <data name="ExpressoesInvalidas" xml:space="preserve">
+    <value>Expressões Invalidas</value>
+  </data>
+  <data name="InstrucaoSQL" xml:space="preserve">
+    <value>Instrução SQL</value>
+  </data>
+  <data name="Validar" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="SiteMapVisao" xml:space="preserve">
+    <value>Visão</value>
+  </data>
+  <data name="SiteMapVisaoCadastro" xml:space="preserve">
+    <value>Cadastro de visão</value>
+  </data>
+  <data name="SiteMapVisaoData" xml:space="preserve">
+    <value>Dados de visão</value>
+  </data>
+  <data name="HaveAnAcconunt" xml:space="preserve">
+    <value>Possui uma conta?</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="teste" xml:space="preserve">
+    <value>teste</value>
+  </data>
+  <data name="LoginInyourAccount" xml:space="preserve">
+    <value>Faça Login na sua conta</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="ExistsMapeamentoTemplate" xml:space="preserve">
+    <value>Existe mapeamentos vinculados ao template !</value>
+  </data>
+  <data name="MapeamentoFormulario" xml:space="preserve">
+    <value>Mapeamento Formulario</value>
+  </data>
+  <data name="MenuRegisterMapeamentos" xml:space="preserve">
+    <value>Mapeamento</value>
+  </data>
+  <data name="Inconformidade" xml:space="preserve">
+    <value>Inconformidade</value>
+  </data>
+  <data name="SiteMapInconformidadeRegister" xml:space="preserve">
+    <value>Cadastro de Inconformidade</value>
+  </data>
+  <data name="AssociatedUser" xml:space="preserve">
+    <value>Usuário associado é obrigatório!</value>
+  </data>
+  <data name="Tasks" xml:space="preserve">
+    <value>Tarefas</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="SucessoCaixaEntrada" module="CaixaEntrada">
+    <value>Sucesso Caixa Entrada</value>
+    <comment>Essa Mensagem é important</comment>
+  </data>
+  <data name="UsuarioNulo" module="Bloqueio">
+    <value>Usuario não pode ser nulo e deve conter um código</value>
+  </data>
+  <data name="ValidacaoDataBloqueio" module="Bloqueio">
+    <value>Atenção data bloqueio não pode ser diferente da data atual</value>
+  </data>
+  <data name="ValidarModulo" module="Bloqueio">
+    <value>Atenção defina o módulo para bloqueio</value>
+  </data>
+  <data name="ModuloJaBloqueado" module="Bloqueio">
+    <value>Atenção módulo já bloqueado para o usuário {0} as {1}</value>
+  </data>
+</root>

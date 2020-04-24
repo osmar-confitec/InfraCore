@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.94.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MetodosComunsApi">
+      <HintPath>..\MetodosComunsApi\bin\Debug\netcoreapp3.0\MetodosComunsApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Resources">
+      <HintPath>..\Resources\bin\Debug\netcoreapp3.0\Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="SlnNotificacoesApi">
+      <HintPath>..\SlnNotificacoesApi\bin\Debug\netcoreapp3.0\SlnNotificacoesApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
